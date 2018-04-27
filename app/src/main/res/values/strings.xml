@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Life of Braeden</string>
+    <string name="storyText">Story Text</string>
+    <string name="action">What do you do?</string>
+    <string name="optionOne">1st Option</string>
+    <string name="optionTwo">2nd Option</string>
+    <string name="optionThree">3rd Option</string>
+</resources>
