@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <org.pltw.examples.storytime.TypeWriter
         android:id="@+id/storyText"
         android:layout_width="341dp"
         android:layout_height="95dp"
