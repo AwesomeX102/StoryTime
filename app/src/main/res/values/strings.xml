@@ -5,4 +5,9 @@
     <string name="optionOne">1st Option</string>
     <string name="optionTwo">2nd Option</string>
     <string name="optionThree">3rd Option</string>
+
+<!-- String Resources for Random Stories-->
+    <string name="story_about_wolf">This is a story about Wolf.</string>
+    <string name="story_about_steve">This is a story about Steve.</string>
+
 </resources>
