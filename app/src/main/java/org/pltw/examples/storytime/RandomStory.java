@@ -2,7 +2,7 @@ package org.pltw.examples.storytime;
 
 import java.util.Random;
 
-public class RandomStory extends ParentStory {
+public class RandomStory extends MainActivity {
     public final String TAG = this.getClass().getName();
 
     Random rand = new Random();
