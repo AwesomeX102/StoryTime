@@ -16,7 +16,7 @@ public class RandomStory extends MainActivity {
     String storyString;
 
 
-    @Override
+    //@Override
     public void RandomEvent() {
         switch (n) {
             case 1:
