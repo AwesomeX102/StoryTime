@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView textTwo;
     private TextView textThree;
     private String TAG = this.getClass().getName();
+    // This is Bailee's comment
 
 
     /*private void textEffect(TextView textBox, String string){
