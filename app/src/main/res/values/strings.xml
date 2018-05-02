@@ -7,7 +7,12 @@
     <string name="optionThree">3rd Option</string>
 
 <!-- String Resources for Random Stories-->
-    <string name="story_about_wolf">This is a story about Wolf.</string>
-    <string name="story_about_steve">This is a story about Steve.</string>
+    <string name="story_about_wolf">This will be a story about Wolf.</string>
+    <string name="story_about_steve">This will be a story about Steve.</string>
+    <string name="story_about_hunger">This will be a story about Hunger.</string>
+    <string name="story_about_villageFriend">This will be a story about Village Friend.</string>
+    <string name="story_about_insanityLevels">This will be a story about Insanity Levels.</string>
+    <string name="story_about_treeEvent">This will be a story about TreeEvent.</string>
+    <string name="story_about_intelligence">This will be a story about Intelligence.</string>
 
 </resources>
