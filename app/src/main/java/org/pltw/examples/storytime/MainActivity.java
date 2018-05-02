@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity{
     //Private variables for Loren
-    private TextView mainText;
+    private TextView mainTextStory;
     private TextView textOne;
     private TextView textTwo;
     private TextView textThree;
@@ -83,19 +83,22 @@ public class MainActivity extends AppCompatActivity{
 
 
     public void setStoryLine(String mainText, String optionOne, String optionTwo, String optionThree){
-        textOne.setText();
+        textOne.setText(optionOne);
+        textThree.setText(optionThree);
+        textTwo.setText(optionTwo);
+        typeWriter(mainText, mainTextStory);
     }
 
 
     //Private Functions for Bailey
 
 
-    public TextView getMainText() {
-        return mainText;
+    public TextView getMainTextStory() {
+        return mainTextStory;
     }
 
-    public void setMainText(TextView mainText) {
-        this.mainText = mainText;
+    public void setMainTextStory(TextView mainTextStory) {
+        this.mainTextStory = mainTextStory;
     }
 
     public TextView getTextOne() {
@@ -127,7 +130,7 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
             //Assign Variables Loren
-            mainText = findViewById(R.id.storyText);
+            mainTextStory = findViewById(R.id.storyText);
             textOne = findViewById(R.id.optionOne);
             textTwo = findViewById(R.id.optionTwo);
             textThree = findViewById(R.id.optionThree);
