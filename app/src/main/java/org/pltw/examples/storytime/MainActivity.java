@@ -48,10 +48,16 @@ public class MainActivity extends AppCompatActivity{
 
     //Private Functions for Loren
 
+    private void  typeWriter(String string, TextView textBox){
+        for(int i = 0; i < string.length(); i++){
+            String x = "";
+            x = string.substring(i);
+            textBox.setText(x);
+
+        }
 
 
-
-
+    }
 
 
 
@@ -135,7 +141,7 @@ public class MainActivity extends AppCompatActivity{
 
 
 
-            //Assign Variables Bailey
+
 
 
 
