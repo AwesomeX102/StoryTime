@@ -82,7 +82,9 @@ public class MainActivity extends AppCompatActivity{
 
 
 
-
+    public void setStoryLine(String mainText, String optionOne, String optionTwo, String optionThree){
+        textOne.setText();
+    }
 
 
     //Private Functions for Bailey
@@ -125,7 +127,6 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
             //Assign Variables Loren
-            ParentStory story = new ParentStory();
             mainText = findViewById(R.id.storyText);
             textOne = findViewById(R.id.optionOne);
             textTwo = findViewById(R.id.optionTwo);
