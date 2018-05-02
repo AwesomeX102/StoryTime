@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity{
     //Private variables for Loren
-    private TextView mainTextStory;
+    private TypeWriter mainTextStory;
     private TextView textOne;
     private TextView textTwo;
     private TextView textThree;
@@ -86,7 +86,11 @@ public class MainActivity extends AppCompatActivity{
         textOne.setText(optionOne);
         textThree.setText(optionThree);
         textTwo.setText(optionTwo);
-        typeWriter(mainText, mainTextStory);
+        mainTextStory.setText("");
+        mainTextStory.setCharacterDelay(150);
+        mainTextStory.animateText(mainText);
+
+        
     }
 
 
@@ -97,7 +101,7 @@ public class MainActivity extends AppCompatActivity{
         return mainTextStory;
     }
 
-    public void setMainTextStory(TextView mainTextStory) {
+    public void setMainTextStory(TypeWriter mainTextStory) {
         this.mainTextStory = mainTextStory;
     }
 
@@ -136,7 +140,7 @@ public class MainActivity extends AppCompatActivity{
             textThree = findViewById(R.id.optionThree);
 
 
-
+            setStoryLine("Cool guys doing cool things while being cool people", "Be Cool", "Be Super Cool", "The awesome stuff");
 
 
 
