@@ -2,6 +2,7 @@ package org.pltw.examples.storytime;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity{
@@ -11,6 +12,7 @@ public class MainActivity extends AppCompatActivity{
     private TextView textTwo;
     private TextView textThree;
     private String TAG = this.getClass().getName();
+
 
 
 
@@ -89,8 +91,28 @@ public class MainActivity extends AppCompatActivity{
         mainTextStory.setText("");
         mainTextStory.setCharacterDelay(150);
         mainTextStory.animateText(mainText);
+        textOne.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
-        
+
+            }
+        });
+        textTwo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+            }
+        });
+        textThree.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+            }
+        });
+
     }
 
 
@@ -140,7 +162,8 @@ public class MainActivity extends AppCompatActivity{
             textThree = findViewById(R.id.optionThree);
 
 
-            setStoryLine("Cool guys doing cool things while being cool people", "Be Cool", "Be Super Cool", "The awesome stuff");
+            setStoryLine("Welcome to StoryTime!", "Be Cool", "Be Super Cool", "The awesome stuff");
+            setStoryLine("What is your name?", "Be Cool", "Be Super Cool", "The awesome stuff");
 
 
 
