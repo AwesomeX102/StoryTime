@@ -14,6 +14,9 @@ public class RandomStory extends MainActivity {
     }
 
     String storyString;
+    boolean knife = false;
+    boolean walkingStick = false;
+    boolean guilt = false;
 
 
     //@Override
@@ -36,7 +39,17 @@ public class RandomStory extends MainActivity {
                 break;
             case 6:
                 storyString = getString(R.string.story_about_treeEvent);
-                
+                if(knife== true || walkingStick == true) {
+                //Put the Badger out of its misery
+                    //Set Guilt == true
+                }
+                //if(intelligence >= 15) {
+
+               // }
+               // if(drawingTree == true) {
+                    //Set the drawing in front of the badger and leave
+                    //Set drawingTree ==false;
+                //}
                 break;
             case 7:
                 storyString = getString(R.string.story_about_intelligence);
