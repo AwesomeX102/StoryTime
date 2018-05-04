@@ -18,33 +18,7 @@ public class MainActivity extends AppCompatActivity{
 
 
 
-
-
-
-
-
-
-
-
-
-
     //Private Variables for Bailey
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -62,51 +36,15 @@ public class MainActivity extends AppCompatActivity{
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     public void setStage(String stage){
         switch(stage){
             case "Beginning":
 
 
                 break;
-
-
         }
 
-
     }
-
-
-
-
-
-
-
-
-
-
-
 
 
     public void setStoryLine(String mainText, String optionOne, String optionTwo, String optionThree, final String stage){
@@ -139,8 +77,6 @@ public class MainActivity extends AppCompatActivity{
         });
 
     }
-
-    //Private Functions for Bailey
 
 
     public TextView getMainTextStory() {
@@ -188,63 +124,6 @@ public class MainActivity extends AppCompatActivity{
 
             setStoryLine("Welcome to StoryTime!", "Be Cool", "Be Super Cool", "The awesome stuff", "cool");
             setStoryLine("What is your name?", "Be Cool", "Be Super Cool", "The awesome stuff", "awesome");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
