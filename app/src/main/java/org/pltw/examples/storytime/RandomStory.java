@@ -20,28 +20,29 @@ public class RandomStory extends MainActivity {
     public void RandomEvent() {
         switch (n) {
             case 1:
-                storyString = "Story about Wolf";
+                storyString = getString(R.string.story_about_wolf);
                 break;
             case 2:
-                storyString = "Story about Steve";
+                storyString = getString(R.string.story_about_steve);
                 break;
             case 3:
-                storyString = "Story about Hunger";
+                storyString = getString(R.string.story_about_hunger);
                 break;
             case 4:
-                storyString = "Story about Village Friend";
+                storyString = getString(R.string.story_about_villageFriend);
                 break;
             case 5:
-                storyString = "Story about Insanity Levels";
+                storyString = getString(R.string.story_about_insanityLevels);
                 break;
             case 6:
-                storyString = "Story about TreeEvent";
+                storyString = getString(R.string.story_about_treeEvent);
+                
                 break;
             case 7:
-                storyString = "Story about Intelligence";
+                storyString = getString(R.string.story_about_intelligence);
                 break;
             default:
-                storyString = "Invalid story";
+                storyString = getString(R.string.invalid_story);
                 break;
         }
         System.out.println(storyString);

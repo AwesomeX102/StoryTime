@@ -12,7 +12,8 @@
     <string name="story_about_hunger">This will be a story about Hunger.</string>
     <string name="story_about_villageFriend">This will be a story about Village Friend.</string>
     <string name="story_about_insanityLevels">This will be a story about Insanity Levels.</string>
-    <string name="story_about_treeEvent">This will be a story about TreeEvent.</string>
+    <string name="story_about_treeEvent">You come up upon a badger. He seems to be stuck in a hole.</string>
     <string name="story_about_intelligence">This will be a story about Intelligence.</string>
+    <string name="invalid_story">Invalid Story</string>
 
 </resources>
