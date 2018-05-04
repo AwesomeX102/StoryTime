@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity{
     private TextView textTwo;
     private TextView textThree;
     private String TAG = this.getClass().getName();
-    //This is loren's comment
+
 
 
 
@@ -70,18 +70,6 @@ public class MainActivity extends AppCompatActivity{
 
 
 
-    public void setStage(String stage){
-        switch(stage){
-            case "Beginning":
-
-
-                break;
-
-
-        }
-
-
-    }
 
 
 
@@ -95,7 +83,8 @@ public class MainActivity extends AppCompatActivity{
 
 
 
-    public void setStoryLine(String mainText, String optionOne, String optionTwo, String optionThree, final String stage){
+
+    public void setStoryLine(String mainText, String optionOne, String optionTwo, String optionThree){
         textOne.setText(optionOne);
         textThree.setText(optionThree);
         textTwo.setText(optionTwo);
@@ -105,21 +94,21 @@ public class MainActivity extends AppCompatActivity{
         textOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setStage(stage);
+
 
             }
         });
         textTwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setStage(stage);
+
 
             }
         });
         textThree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setStage(stage);
+
 
             }
         });
@@ -173,8 +162,8 @@ public class MainActivity extends AppCompatActivity{
             textThree = findViewById(R.id.optionThree);
 
 
-            setStoryLine("Welcome to StoryTime!", "Be Cool", "Be Super Cool", "The awesome stuff", "cool");
-            setStoryLine("What is your name?", "Be Cool", "Be Super Cool", "The awesome stuff", "Beginning");
+            setStoryLine("Welcome to StoryTime!", "Be Cool", "Be Super Cool", "The awesome stuff");
+            setStoryLine("What is your name?", "Be Cool", "Be Super Cool", "The awesome stuff");
 
 
 
