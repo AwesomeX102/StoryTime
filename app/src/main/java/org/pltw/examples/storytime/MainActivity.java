@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity{
         switch(stage){
             case "Beginning":
 
-
                 break;
         }
 
