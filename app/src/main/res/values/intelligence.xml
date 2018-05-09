@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="int1_main_text">You have always been a good problem solver and love to learn new things, so intelligence classes seemed like the best option for you. You head to your first class of the day. Computer Science 101. You are early so you decide to open up your laptop read the daily news. Everywhere you look is saying the same thing. The world is being hacked.  Chaos erupts! The secret government organizations have failed. Suddenly, the screen goes dark and dots begin to appear. You recognize the path immediately. It leads to a hidden pier you enjoy studying at sometimes. </string>
+    <string name="int1_option1">Go to the pier.</string>
+</resources>

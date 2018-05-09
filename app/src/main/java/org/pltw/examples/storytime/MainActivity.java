@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity{
     //Private variables for Loren
     private TypeWriter mainTextStory;
@@ -12,6 +14,12 @@ public class MainActivity extends AppCompatActivity{
     private TextView textTwo;
     private TextView textThree;
     private String TAG = this.getClass().getName();
+    private Story mStory = Story.getStory();
+    private ArrayList<Stage> intelligent = mStory.getIntelligent();
+    private ArrayList<Stage> athletic = mStory.getAthletic();
+    private ArrayList<Stage> musical = mStory.getMusical();
+
+
 
 
 
@@ -84,32 +92,52 @@ public class MainActivity extends AppCompatActivity{
 
 
 
-    public void setStoryLine(String mainText, String optionOne, String optionTwo, String optionThree){
-        textOne.setText(optionOne);
-        textThree.setText(optionThree);
-        textTwo.setText(optionTwo);
-        mainTextStory.setText("");
+    public void setStoryLine(final Stage stage){
+        textOne.setText(stage.getOption1());
+        textTwo.setText(stage.getOption2());
+        textThree.setText(stage.getOption3());
+        mainTextStory.setText(stage.getMainText());
         mainTextStory.setCharacterDelay(150);
-        mainTextStory.animateText(mainText);
+        mainTextStory.animateText(mainTextStory.getText());
         textOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                int storyLine = stage.getStoryLine();
+                int index = stage.getStage1();
+                if(storyLine == -1) {
+                    storyLine = 0;
+                    index = 0;
+                }
+                Stage newStage = mStory.getStage(storyLine, index);
+                setStoryLine(newStage);
 
             }
         });
         textTwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                int index = stage.getStage2();
+                int storyLine = stage.getStoryLine();
+                if(storyLine == -1) {
+                    storyLine = 1;
+                    index = 0;
+                }
+                Stage newStage = mStory.getStage(storyLine, index);
+                setStoryLine(newStage);
 
             }
         });
         textThree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-
+                int index = stage.getStage3();
+                int storyLine = stage.getStoryLine();
+                if(storyLine == -1) {
+                    storyLine = 2;
+                    index = 0;
+                }
+                Stage newStage = mStory.getStage(storyLine, index);
+                setStoryLine(newStage);
             }
         });
 
@@ -161,67 +189,6 @@ public class MainActivity extends AppCompatActivity{
             textTwo = findViewById(R.id.optionTwo);
             textThree = findViewById(R.id.optionThree);
 
-
-            setStoryLine("Welcome to StoryTime!", "Be Cool", "Be Super Cool", "The awesome stuff");
-            setStoryLine("What is your name?", "Be Cool", "Be Super Cool", "The awesome stuff");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            setStoryLine(mStory.getStage(-1, 0));
     }
 }
