@@ -13,16 +13,17 @@ public class Story {
     private ArrayList<Stage> intelligent;
     private ArrayList<Stage> athletic;
     private ArrayList<Stage> musical;
+    private android.content.Context context;
 
     private Story() {
         intelligent = new ArrayList<>();
         athletic = new ArrayList<>();
         musical = new ArrayList<>();
-        initial = new Stage(-1, "Main Text", "Intelligence path", "Athletic Path", "Musical Path", 0, 1, 2, 3);//MAKE THIS THE INTRO FOR ALL PATHS
-        //public Stage stageN = new Stage(STORY_LINE, "MAIN TEXT", "OPTION 1 TEXT"...
+        initial = new Stage(-1, R.string.main_text,  R.string.option1,  R.string.option2,  R.string.option3, 0, 1, 2, 3);//MAKE THIS THE INTRO FOR ALL PATHS
 
         //vvvvvvvvvvvvvvvvvv PUT STORIES HERE vvvvvvvvvvvvvvvvvv
-        Stage int1 = new Stage(INT, R.string.int1_main_text, )
+        Stage int0 = new Stage(INT, R.string.int1_main_text, R.string.int1_option1, R.string.int1_option2, R.string.int1_option3, 0, 1, 2, 3);
+
 
 
 
@@ -41,6 +42,8 @@ public class Story {
         }
         return story;
     }
+
+
 
     public ArrayList<Stage> getIntelligent() {
         return intelligent;

@@ -16,4 +16,9 @@
     <string name="story_about_intelligence">This will be a story about Intelligence.</string>
     <string name="invalid_story">Invalid Story</string>
 
+    <string name="main_text">MainText</string>
+    <string name="option1">Intelligence</string>
+    <string name="option2">Musical</string>
+    <string name="option3">Athletic</string>
+
 </resources>

@@ -6,19 +6,19 @@ public class Stage {
     public static int count;
     private int id;
     private int storyLine;
-    private String mainText;
-    private String option1;
-    private String option2;
-    private String option3;
+    private int mainText;
+    private int option1;
+    private int option2;
+    private int option3;
     private int stage1;
     private int stage2;
     private int stage3;
-    private static Story story = Story.getStory();
-    private static ArrayList<Stage> intelligent = story.getIntelligent();
-    private static ArrayList<Stage> athletic = story.getAthletic();
-    private static ArrayList<Stage> musical = story.getMusical();
+    private Story story = Story.getStory();
+    private ArrayList<Stage> intelligent = story.getIntelligent();
+    private ArrayList<Stage> athletic = story.getAthletic();
+    private ArrayList<Stage> musical = story.getMusical();
 
-    public Stage(int storyLine, String mainText, String option1, String option2, String option3, int id, int stage1, int stage2, int stage3) {
+    public Stage(int storyLine, int mainText, int option1, int option2, int option3, int id, int stage1, int stage2, int stage3) {
          this.storyLine = storyLine;
          this.mainText = mainText;
          this.option1 = option1;
@@ -63,19 +63,19 @@ public class Stage {
         return id;
     }
 
-    public String getMainText() {
+    public int getMainText() {
         return mainText;
     }
 
-    public String getOption1() {
+    public int getOption1() {
         return option1;
     }
 
-    public String getOption2() {
+    public int getOption2() {
         return option2;
     }
 
-    public String getOption3() {
+    public int getOption3() {
         return option3;
     }
 

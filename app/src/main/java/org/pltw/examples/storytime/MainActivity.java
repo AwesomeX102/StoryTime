@@ -14,10 +14,10 @@ public class MainActivity extends AppCompatActivity{
     private TextView textTwo;
     private TextView textThree;
     private String TAG = this.getClass().getName();
-    private Story mStory = Story.getStory();
-    private ArrayList<Stage> intelligent = mStory.getIntelligent();
-    private ArrayList<Stage> athletic = mStory.getAthletic();
-    private ArrayList<Stage> musical = mStory.getMusical();
+    private Story mStory;
+    private ArrayList<Stage> intelligent;
+    private ArrayList<Stage> athletic;
+    private ArrayList<Stage> musical;
 
 
 
@@ -93,10 +93,10 @@ public class MainActivity extends AppCompatActivity{
 
 
     public void setStoryLine(final Stage stage){
-        textOne.setText(stage.getOption1());
-        textTwo.setText(stage.getOption2());
-        textThree.setText(stage.getOption3());
-        mainTextStory.setText(stage.getMainText());
+        textOne.setText(getResources().getString(stage.getOption1()));
+        textTwo.setText(getResources().getString(stage.getOption2()));
+        textThree.setText(getResources().getString(stage.getOption3()));
+        mainTextStory.setText(getResources().getString(stage.getMainText()));
         mainTextStory.setCharacterDelay(150);
         mainTextStory.animateText(mainTextStory.getText());
         textOne.setOnClickListener(new View.OnClickListener() {
@@ -179,6 +179,10 @@ public class MainActivity extends AppCompatActivity{
         this.textThree = textThree;
     }
 
+    public Story getStory() {
+        return mStory;
+}
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -188,6 +192,10 @@ public class MainActivity extends AppCompatActivity{
             textOne = findViewById(R.id.optionOne);
             textTwo = findViewById(R.id.optionTwo);
             textThree = findViewById(R.id.optionThree);
+            mStory = Story.getStory();
+            intelligent = mStory.getIntelligent();
+            athletic = mStory.getAthletic();
+            musical = mStory.getMusical();
 
             setStoryLine(mStory.getStage(-1, 0));
     }
