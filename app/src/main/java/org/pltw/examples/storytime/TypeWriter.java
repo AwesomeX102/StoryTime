@@ -20,6 +20,8 @@ public class TypeWriter extends android.support.v7.widget.AppCompatTextView {
         }
     };
 
+
+
     public TypeWriter(Context context) {
         super(context);
     }

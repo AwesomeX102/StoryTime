@@ -9,10 +9,10 @@ public class Story {
     private static int INT = 0;
     private static int ATH = 1;
     private static int MUS = 2;
-    private Stage initial;
-    private ArrayList<Stage> intelligent;
-    private ArrayList<Stage> athletic;
-    private ArrayList<Stage> musical;
+    private static Stage initial;
+    private static ArrayList<Stage> intelligent;
+    private static ArrayList<Stage> athletic;
+    private static ArrayList<Stage> musical;
     private android.content.Context context;
 
     private Story() {
@@ -22,7 +22,8 @@ public class Story {
         initial = new Stage(-1, R.string.main_text,  R.string.option1,  R.string.option2,  R.string.option3, 0, 1, 2, 3);//MAKE THIS THE INTRO FOR ALL PATHS
 
         //vvvvvvvvvvvvvvvvvv PUT STORIES HERE vvvvvvvvvvvvvvvvvv
-        Stage int0 = new Stage(INT, R.string.int1_main_text, R.string.int1_option1, R.string.int1_option2, R.string.int1_option3, 0, 1, 2, 3);
+        Stage int0 = new Stage(INT, R.string.int0_main_text, R.string.int0_option1, R.string.int0_option2, R.string.int0_option3, 0, 1, 2, 3);
+        Stage int1 = new Stage(INT, R.string.int1_main_text, R.string.int1_option1, R.string.int1_option2, R.string.int1_option3, 1, 4, 5, 6);
 
 
 
@@ -34,6 +35,20 @@ public class Story {
 
 
         //^^^^^^^^^^^^^^^^^^ PUT STORIES HERE ^^^^^^^^^^^^^^^^^^
+
+        for (Stage s : Stage.allStages) {
+            int storyLine = s.getStoryLine();
+            int id = s.getId();
+            if(storyLine == 0) {
+                intelligent.add(id, s);
+            }
+            else if(storyLine == 1) {
+                athletic.add(id, s);
+            }
+            else if(storyLine == 2) {
+                musical.add(id, s);
+            }
+        }
     }
 
     public static Story getStory() {

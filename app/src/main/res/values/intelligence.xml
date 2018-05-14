@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="int1_main_text">You have always been a good problem solver and love to learn new things, so intelligence classes seemed like the best option for you. You head to your first class of the day. Computer Science 101. You are early so you decide to open up your laptop read the daily news. Everywhere you look is saying the same thing. The world is being hacked.  Chaos erupts! The secret government organizations have failed. Suddenly, the screen goes dark and dots begin to appear. You recognize the path immediately. It leads to a hidden pier you enjoy studying at sometimes. </string>
-    <string name="int1_option1">Go to the pier.</string>
-    <string name="int1_option2">Stay in Class.</string>
-    <string name="int1_option3">Leave class to see if you can find who sent you the message. </string>
+    <string name="int0_main_text">You have always been a good problem solver and love to learn new things, so intelligence classes seemed like the best option for you. You head to your first class of the day. Computer Science 101. You are early so you decide to open up your laptop read the daily news. Everywhere you look is saying the same thing. The world is being hacked.  Chaos erupts! The secret government organizations have failed. Suddenly, the screen goes dark and dots begin to appear. You recognize the path immediately. It leads to a hidden pier you enjoy studying at sometimes. </string>
+    <string name="int0_option1">Go to the pier.</string>
+    <string name="int0_option2">Stay in Class.</string>
+    <string name="int0_option3">Leave class to see if you can find who sent you the message. </string>
 
+    <string name="int1_main_text">Your curiosity gets the best of you. You cannot help but follow the path to the pier. When you get there, two boats are waiting on the shore.</string>
+    <string name="int1_option1">Get in the white fishing boat.</string>
+    <string name="int1_option2">Walk to the small grey boat.</string>
+    <string name="int1_option3">You are not much of the thieving type. You look around for another clue.</string>
+
+    <string name="int2_main_text">You decide to be responsable and listen to your first class, but that note is still nagging at you. It doesn't help that then end of the world is all anybody is talking about. When the teacher starts the lecture, you try to take some notes on your laptop, but you can't seem to navigate anywhere but the map to the pier. </string>
+    <string name="int2_option1">Go to the pier.</string>
+    <string name="int2_option2">Stay in class</string>
+    <string name="int2_option3">Head to the nearest emergency shelter.</string>
 </resources>

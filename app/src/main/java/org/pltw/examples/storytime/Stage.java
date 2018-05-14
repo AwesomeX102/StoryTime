@@ -13,10 +13,11 @@ public class Stage {
     private int stage1;
     private int stage2;
     private int stage3;
-    private Story story = Story.getStory();
-    private ArrayList<Stage> intelligent = story.getIntelligent();
-    private ArrayList<Stage> athletic = story.getAthletic();
-    private ArrayList<Stage> musical = story.getMusical();
+    public static ArrayList<Stage> allStages = new ArrayList<>();
+    private static Story story = Story.getStory();
+    private static ArrayList<Stage> intelligent = story.getIntelligent();
+    private static ArrayList<Stage> athletic = story.getAthletic();
+    private static ArrayList<Stage> musical = story.getMusical();
 
     public Stage(int storyLine, int mainText, int option1, int option2, int option3, int id, int stage1, int stage2, int stage3) {
          this.storyLine = storyLine;
@@ -29,6 +30,8 @@ public class Stage {
          this.stage3 = stage3;
          count ++;
          this.id = id;
+         allStages.add(this);
+         /*
          if(storyLine == 0) {
              intelligent.add(id, this);
          }
@@ -37,7 +40,7 @@ public class Stage {
         }
         else if(storyLine == 2) {
             musical.add(id, this);
-        }
+        }*/
     }
 
 

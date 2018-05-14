@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity{
 
     //Private Functions for Loren
 
-    private void  typeWriter(String string, TextView textBox){
+    private void typeWriter(String string, TextView textBox){
         for(int i = 0; i < string.length(); i++){
             String x = "";
             x = string.substring(i);
@@ -97,7 +97,12 @@ public class MainActivity extends AppCompatActivity{
         textTwo.setText(getResources().getString(stage.getOption2()));
         textThree.setText(getResources().getString(stage.getOption3()));
         mainTextStory.setText(getResources().getString(stage.getMainText()));
-        mainTextStory.setCharacterDelay(150);
+        if(stage.getStoryLine() == -1) {
+            mainTextStory.setCharacterDelay(150);
+        }
+        else {
+            mainTextStory.setCharacterDelay(50);
+        }
         mainTextStory.animateText(mainTextStory.getText());
         textOne.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -110,7 +115,6 @@ public class MainActivity extends AppCompatActivity{
                 }
                 Stage newStage = mStory.getStage(storyLine, index);
                 setStoryLine(newStage);
-
             }
         });
         textTwo.setOnClickListener(new View.OnClickListener() {
