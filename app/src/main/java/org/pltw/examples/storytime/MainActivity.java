@@ -2,6 +2,7 @@ package org.pltw.examples.storytime;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -109,11 +110,13 @@ public class MainActivity extends AppCompatActivity{
             public void onClick(View view) {
                 int storyLine = stage.getStoryLine();
                 int index = stage.getStage1();
+                Log.i("SET_STORY", "StoryLine: " +storyLine);
+                Log.i("SET_STORY", "Index: " +index);
                 if(index == -1) {
                     storyLine = -1;
                     index = -1;
                 }
-                if(storyLine == -1) {
+                else if(storyLine == -1) {
                     storyLine = 0;
                     index = 0;
                 }
@@ -126,11 +129,13 @@ public class MainActivity extends AppCompatActivity{
             public void onClick(View view) {
                 int index = stage.getStage2();
                 int storyLine = stage.getStoryLine();
+                Log.i("SET_STORY", "StoryLine: " +storyLine);
+                Log.i("SET_STORY", "Index: " +index);
                 if(index == -1) {
                     storyLine = -1;
                     index = -1;
                 }
-                if(storyLine == -1) {
+                else if(storyLine == -1) {
                     storyLine = 1;
                     index = 0;
                 }
@@ -144,11 +149,13 @@ public class MainActivity extends AppCompatActivity{
             public void onClick(View view) {
                 int index = stage.getStage3();
                 int storyLine = stage.getStoryLine();
+                Log.i("SET_STORY", "StoryLine: " +storyLine);
+                Log.i("SET_STORY", "Index: " +index);
                 if(index == -1) {
                     storyLine = -1;
                     index = -1;
                 }
-                if(storyLine == -1) {
+                else if(storyLine == -1) {
                     storyLine = 2;
                     index = 0;
                 }
