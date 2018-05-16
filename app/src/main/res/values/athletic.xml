@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ath0_main_text">You wake up at 9:15. School has already started. You are uber late. What do you do?</string>
+    <string name="ath0_option1">Drop out.</string>
+    <string name="ath0_option2">Run to school.</string>
+    <string name="ath0_option3">Hitch hike to school.</string>
+
+    <string name="ath1_main_text">You drop out of high school. You become a drug dealer and die to a cocaine overdose a few years later.</string>
+    <string name="ath1_option1">GAME OVER</string>
+    <string name="ath1_option2">GAME OVER</string>
+    <string name="ath1_option3">GAME OVER</string>
+
+    <string name="ath2_main_text">You decide that your best choice is to run to school. You are so late that you risk running across the street instead of waiting for the light. Fortunately, you are a pro at frogger. Unfortunately, a semi truck is surprisingly hard to avoid.</string>
+    <string name="ath2_option1">GAME OVER</string>
+    <string name="ath2_option2">GAME OVER</string>
+    <string name="ath2_option3">GAME OVER</string>
+
+    <string name="ath3_main_text">You think that it will be quicker to hitch hike to school than to run. You are quite smart! A man in an RV picks you up. You tell him where you\'re headed. He tells you that he isn\'t allowed within 1000 feet of a school, but he can get you that close. What do you do?</string>
+    <string name="ath3_option1">Get in and thank him.</string>
+    <string name="ath3_option2">Get in without thanking him.</string>
+    <string name="ath3_option3">Run to school.</string>
+
+    <string name="ath4_main_text">He takes you within 1000 feet of the school. However, there is a busy street between you and the school. Fortunately, you are a pro at frogger. Unfortunately, a semitruck is surprisingly hard to avoid.</string>
+    <string name="ath4_option1">GAME OVER</string>
+    <string name="ath4_option2">GAME OVER</string>
+    <string name="ath4_option3">GAME OVER</string>
+
+    <string name="ath5_main_text">He takes you within 1000 feet of the school. As you unbuckle, he takes out a knife and exclaims, \"THIS IS FOR NOT THANKING ME FOR THE RIDE!\" You are brutally stabbed to death.</string>
+    <string name="ath5_option1">GAME OVER</string>
+    <string name="ath5_option2">GAME OVER</string>
+    <string name="ath5_option3">GAME OVER</string>
+</resources>

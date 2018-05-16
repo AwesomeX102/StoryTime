@@ -109,6 +109,10 @@ public class MainActivity extends AppCompatActivity{
             public void onClick(View view) {
                 int storyLine = stage.getStoryLine();
                 int index = stage.getStage1();
+                if(index == -1) {
+                    storyLine = -1;
+                    index = -1;
+                }
                 if(storyLine == -1) {
                     storyLine = 0;
                     index = 0;
@@ -122,6 +126,10 @@ public class MainActivity extends AppCompatActivity{
             public void onClick(View view) {
                 int index = stage.getStage2();
                 int storyLine = stage.getStoryLine();
+                if(index == -1) {
+                    storyLine = -1;
+                    index = -1;
+                }
                 if(storyLine == -1) {
                     storyLine = 1;
                     index = 0;
@@ -136,6 +144,10 @@ public class MainActivity extends AppCompatActivity{
             public void onClick(View view) {
                 int index = stage.getStage3();
                 int storyLine = stage.getStoryLine();
+                if(index == -1) {
+                    storyLine = -1;
+                    index = -1;
+                }
                 if(storyLine == -1) {
                     storyLine = 2;
                     index = 0;
