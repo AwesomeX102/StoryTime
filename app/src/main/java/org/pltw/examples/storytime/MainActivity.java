@@ -2,8 +2,11 @@ package org.pltw.examples.storytime;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity{
     //Private variables for Loren
@@ -12,7 +15,23 @@ public class MainActivity extends AppCompatActivity{
     private TextView textTwo;
     private TextView textThree;
     private String TAG = this.getClass().getName();
-    //This is bailee's comment
+    private Story mStory;
+    private ArrayList<Stage> intelligent;
+    private ArrayList<Stage> athletic;
+    private ArrayList<Stage> musical;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -22,9 +41,25 @@ public class MainActivity extends AppCompatActivity{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //Private Functions for Loren
 
-    private void  typeWriter(String string, TextView textBox){
+    private void typeWriter(String string, TextView textBox){
         for(int i = 0; i < string.length(); i++){
             String x = "";
             x = string.substring(i);
@@ -36,46 +71,103 @@ public class MainActivity extends AppCompatActivity{
     }
 
 
-    public void setStage(String stage){
-        switch(stage){
-            case "Beginning":
 
-                break;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public void setStoryLine(final Stage stage){
+        textOne.setText(getResources().getString(stage.getOption1()));
+        textTwo.setText(getResources().getString(stage.getOption2()));
+        textThree.setText(getResources().getString(stage.getOption3()));
+        mainTextStory.setText(getResources().getString(stage.getMainText()));
+        if(stage.getStoryLine() == -1) {
+            mainTextStory.setCharacterDelay(150);
         }
-
-    }
-
-
-    public void setStoryLine(String mainText, String optionOne, String optionTwo, String optionThree, final String stage){
-        textOne.setText(optionOne);
-        textThree.setText(optionThree);
-        textTwo.setText(optionTwo);
-        mainTextStory.setText("");
-        mainTextStory.setCharacterDelay(150);
-        mainTextStory.animateText(mainText);
+        else {
+            mainTextStory.setCharacterDelay(50);
+        }
+        mainTextStory.animateText(mainTextStory.getText());
         textOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setStage(stage);
-
+                int storyLine = stage.getStoryLine();
+                int index = stage.getStage1();
+                Log.i("SET_STORY", "StoryLine: " +storyLine);
+                Log.i("SET_STORY", "Index: " +index);
+                if(index == -1) {
+                    storyLine = -1;
+                    index = -1;
+                }
+                else if(storyLine == -1) {
+                    storyLine = 0;
+                    index = 0;
+                }
+                Stage newStage = mStory.getStage(storyLine, index);
+                setStoryLine(newStage);
             }
         });
         textTwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setStage(stage);
+                int index = stage.getStage2();
+                int storyLine = stage.getStoryLine();
+                Log.i("SET_STORY", "StoryLine: " +storyLine);
+                Log.i("SET_STORY", "Index: " +index);
+                if(index == -1) {
+                    storyLine = -1;
+                    index = -1;
+                }
+                else if(storyLine == -1) {
+                    storyLine = 1;
+                    index = 0;
+                }
+                Stage newStage = mStory.getStage(storyLine, index);
+                setStoryLine(newStage);
 
             }
         });
         textThree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setStage(stage);
-
+                int index = stage.getStage3();
+                int storyLine = stage.getStoryLine();
+                Log.i("SET_STORY", "StoryLine: " +storyLine);
+                Log.i("SET_STORY", "Index: " +index);
+                if(index == -1) {
+                    storyLine = -1;
+                    index = -1;
+                }
+                else if(storyLine == -1) {
+                    storyLine = 2;
+                    index = 0;
+                }
+                Stage newStage = mStory.getStage(storyLine, index);
+                setStoryLine(newStage);
             }
         });
 
     }
+
+
+    //Private Functions for Bailey
 
 
     public TextView getMainTextStory() {
@@ -110,6 +202,10 @@ public class MainActivity extends AppCompatActivity{
         this.textThree = textThree;
     }
 
+    public Story getStory() {
+        return mStory;
+}
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -119,11 +215,11 @@ public class MainActivity extends AppCompatActivity{
             textOne = findViewById(R.id.optionOne);
             textTwo = findViewById(R.id.optionTwo);
             textThree = findViewById(R.id.optionThree);
+            mStory = Story.getStory();
+            intelligent = mStory.getIntelligent();
+            athletic = mStory.getAthletic();
+            musical = mStory.getMusical();
 
-
-            setStoryLine("Welcome to StoryTime!", "Be Cool", "Be Super Cool", "The awesome stuff", "cool");
-            setStoryLine("What is your name?", "Be Cool", "Be Super Cool", "The awesome stuff", "awesome");
-
-
+            setStoryLine(mStory.getStage(-1, 0));
     }
 }

@@ -16,4 +16,9 @@
     <string name="story_about_intelligence">This will be a story about Intelligence.</string>
     <string name="invalid_story">Invalid Story</string>
 
+    <string name="main_text">BLAAAH BLAAAAAAH! Your alarm is going off. It\'s the first day of high school. You lazily reach over and...</string>
+    <string name="option1">turn it off. You start getting ready for school.</string>
+    <string name="option2">hit the snooze button and go back to sleep.</string>
+    <string name="option3">turn it off and go back to sleep.</string>
+
 </resources>
