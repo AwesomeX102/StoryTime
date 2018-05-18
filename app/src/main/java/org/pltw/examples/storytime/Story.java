@@ -36,7 +36,7 @@ public class Story {
 
 
 
-
+//vvvvvvvvvvvvvvvvvv INT Stages vvvvvvvvvvvvvvvvvv
         Stage int0 = new Stage(INT, R.string.int0_main_text, R.string.int0_option1, R.string.int0_option2, R.string.int0_option3, 0, 1, 2, 3);
         Stage int1 = new Stage(INT, R.string.int1_main_text, R.string.int1_option1, R.string.int1_option2, R.string.int1_option3, 1, 4, 5, 6);
         Stage int2 = new Stage(INT, R.string.int2_main_text, R.string.int2_option1, R.string.int2_option2, R.string.int2_option3, 2, 1, 7, 7);
@@ -76,7 +76,7 @@ public class Story {
         Stage int36 = new Stage(INT, R.string.int36_main_text, R.string.int36_option1, R.string.int36_option2, R.string.int36_option3, 36, 39, 47, 48);
         Stage int37 = new Stage(INT, R.string.int37_main_text, R.string.int37_option1, R.string.int37_option2, R.string.int37_option3, 37, 49, 50, 51);
         Stage int38 = new Stage(INT, R.string.int38_main_text, R.string.int38_option1, R.string.int38_option2, R.string.int38_option3, 38, 52, 53, 54);
-       // Stage int39 = new Stage(INT, R.string.int39_main_text, R.string.int39_option1, R.string.int39_option2, R.string.int39_option3, 39, getMusical(3), 32, 38);
+        Stage int39 = new Stage(INT, R.string.int39_main_text, R.string.int39_option1, R.string.int39_option2, R.string.int39_option3, 39, -1, 32, 38);
         Stage int40 = new Stage(INT, R.string.int40_main_text, R.string.int40_option1, R.string.int40_option2, R.string.int40_option3, 40, 34, 38, 38);
         Stage int41 = new Stage(INT, R.string.int41_main_text, R.string.int41_option1, R.string.int41_option2, R.string.int41_option3, 41, 55, 56, 34);
         Stage int42 = new Stage(INT, R.string.int42_main_text, R.string.int42_option1, R.string.int42_option2, R.string.int42_option3, 42, 57, 58, -1);
