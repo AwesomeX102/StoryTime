@@ -1,4 +1,175 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="mus0_main_text">You go to lunch and while you are walking to the lunchroom, you meet a man named Steve. He seems to be the Janitor, he says hi to you with a creepy smile. </string>
+    <string name="mus0_option1">Say Hi back</string>
+    <string name="mus0_option2">Hello Steve...</string>
+    <string name="mus0_option3">Ignore him</string>
+
+    <string name="mus1_main_text">It\'s time for Band class! What do you do?</string>
+    <string name="mus1_option1">Go to Band Class</string>
+    <string name="mus1_option2">Go to Band Class</string>
+    <string name="mus1_option3">Go to Band Class</string>
+
+    <string name="mus2_main_text">During your Band class the Band teacher hands out a new piece of music called “Undertow”. You start to notice something different when reading the music, it almost seems like the notes are forming a pathway. The title seems to be turning into a red X. You close your eyes and think that you are seeing things, however when you open them the music has turned into a treasure map of some type. It fascinates you and you stare deeply into every detail of it. You could have sworn it was a music a second before. You ask to go to the bathroom and bring the map with you. Along the way you run into the creepy Janitor, “Steve”, you both hit the floor hard and the map flies out of your hand. Steve grabs it and gives it back to you, all the while yelling at you for being stupid and blind. He glances at it while giving it back. You run away from Steve scared for your life. As you reach the bathroom you stop and decide to just go for it. You bust open the door next to the bathroom and head outside.</string>
+    <string name="mus2_option1">Hooray!</string>
+    <string name="mus2_option2">Uh Oh</string>
+    <string name="mus2_option3">Weee!</string>
+
+    <string name="mus3_main_text">You come up on a cat in the forest, it looks helpless. What do you do?</string>
+    <string name="mus3_option1">Kick it</string>
+    <string name="mus3_option2">Pet it</string>
+    <string name="mus3_option3">Feed it your lunch</string>
+
+    <string name="mus4_main_text">The cat dies. Now what monster?</string>
+    <string name="mus4_option1">Bury his body</string>
+    <string name="mus4_option2">Keep the corpse</string>
+    <string name="mus4_option3">Leave him</string>
+
+    <string name="mus5_main_text">The cat purrs but dies of starvation shortly afterwards. At least it enjoyed his last moments. Now what do you do?</string>
+    <string name="mus5_option1">Bury his body</string>
+    <string name="mus5_option2">Keep the corpse</string>
+    <string name="mus5_option3">Leave him</string>
+
+    <string name="mus6_main_text">You set the lunch down and the cat furiously eats it. He becomes your friend shortly afterwards. Do you accept his friendship?</string>
+    <string name="mus6_option1">FOR SPARTA!</string>
+    <string name="mus6_option2">Of course!</string>
+    <string name="mus6_option3">Leave him</string>
+
+    <string name="mus7_main_text">The cat becomes your friend and just in time, a wolf comes upon the both of you. What do you do?</string>
+    <string name="mus7_option1">Hide behind the cat</string>
+    <string name="mus7_option2">Run away with cat</string>
+    <string name="mus7_option3">Leave the cat to deal with it</string>
+
+    <string name="mus8_main_text">You leave the cat and feel guilty about not befriending him. Maybe it's for the best. As you walk away you meet a old man looking for his cat, Purtis.</string>
+    <string name="mus8_option1">Tell him what happened</string>
+    <string name="mus8_option2">Say nothing</string>
+    <string name="mus8_option3">NO WITNESSES!</string>
+
+    <string name="mus9_main_text">You have the decency to bury the cat and give him a proper funeral. Afterwards you walk away and see another cat.</string>
+    <string name="mus9_option1">Attempt to befriend it</string>
+    <string name="mus9_option2">Leave it be</string>
+    <string name="mus9_option3">Eéž■+qτÜy▒§|}y▐$</string>
+
+    <string name="mus10_main_text">You figure that the corpse could come in handy. And right as you put the cat in your bag a old man comes upon you and asks if you have seen his cat, Purtis?</string>
+    <string name="mus10_option1">Tell him where the corpse is</string>
+    <string name="mus10_option2">Say nothing</string>
+    <string name="mus10_option3">NO WITNESSES!</string>
+
+    <string name="mus11_main_text">You are sick. What kind of person does this to a helpless cat? Shame on you. Anyways, as you walk away you spot another cat. Now what you cat killer?</string>
+    <string name="mus11_option1">Kick it and take its corpse</string>
+    <string name="mus11_option2">Attempt to befriend it</string>
+    <string name="mus11_option3">Ignore it</string>
+
+    <string name="mus12_main_text">The cat defends you but loses his life in the process. Now what?</string>
+    <string name="mus12_option1">Bury his body</string>
+    <string name="mus12_option2">Keep the corpse</string>
+    <string name="mus12_option3">Leave him</string>
+
+    <string name="mus13_main_text">You and the cat run away but meet an old man looking for his cat. He currently does not see the cat as you talk to him. What do you do?</string>
+    <string name="mus13_option1">Hide the cat</string>
+    <string name="mus13_option2">Give him the cat</string>
+    <string name="mus13_option3">Keep walking</string>
+
+    <string name="mus14_main_text">The man runs towards where the cat was last. You hear him crying.</string>
+    <string name="mus14_option1">Feel sorry</string>
+    <string name="mus14_option2">Feel guilty</string>
+    <string name="mus14_option3">Feel accomplished</string>
+
+    <string name="mus15_main_text">CODEBREAKER!!</string>
+    <string name="mus15_option1">j;k5 57◄─▐Ü↔δ</string>
+    <string name="mus15_option2">j;k5 57◄─▐Ü↔δ</string>
+    <string name="mus15_option3">j;k5 57◄─▐Ü↔δ</string>
+
+    <string name="mus16_main_text">You kill the old man. You are now known as a murderer. Your family disowns you and are hunted by the police everyday. They call you the Mad Maniac Murderer. You live the rest of your life on the run.</string>
+    <string name="mus16_option1">You got the bad ending</string>
+    <string name="mus16_option2">You got the bad ending</string>
+    <string name="mus16_option3">You got the bad ending</string>
+
+    <string name="mus17_main_text">The old man asks for his cat.</string>
+    <string name="mus17_option1">Give it to him</string>
+    <string name="mus17_option2">Keep walking</string>
+    <string name="mus17_option3">NO WITNESSES!</string>
+
+    <string name="mus18_main_text">The cat scratches you and runs off. How do you treat the wound?</string>
+    <string name="mus18_option1">Find some spare leaves and use your bandaids as tape to stick the leaf over the wound</string>
+    <string name="mus18_option2">Use your bandaids</string>
+    <string name="mus18_option3">Ignore it</string>
+
+    <string name="mus19_main_text">You keep walking and eventually see a village.</string>
+    <string name="mus19_option1">Enter the Village</string>
+    <string name="mus19_option2">Go around the Village</string>
+    <string name="mus19_option3">Let\'s go in!</string>
+
+    <string name="mus20_main_text">You hide the cat from the man. But he sees it and attempts to fight you for him.</string>
+    <string name="mus20_option1">Let the old man take him</string>
+    <string name="mus20_option2">Run away with the cat</string>
+    <string name="mus20_option3">Kill the old man</string>
+
+    <string name="mus21_main_text">He thanks you for his cat and walks off.</string>
+    <string name="mus21_option1">Feel amazing!</string>
+    <string name="mus21_option2">Feel guilty for the cat</string>
+    <string name="mus21_option3">Miss the cat</string>
+
+    <string name="mus22_main_text">WHAT THE HECK? Dude thats seriously messed up. You have bad mental problems... Anyways you keep walking til you see a village... Don\'t do it...</string>
+    <string name="mus22_option1">Do THIS?!? (Set fire to the Village)</string>
+    <string name="mus22_option2">Im not doing anything (Enter Village)</string>
+    <string name="mus22_option3">HAHA I LOVE MURDER! (Murder the entire Village)</string>
+
+    <string name="mus23_main_text">You and your cat friend keep walking and eventually see a village.</string>
+    <string name="mus23_option1">Enter the Village</string>
+    <string name="mus23_option2">Go around the Village</string>
+    <string name="mus23_option3">Call it quits and go home</string>
+
+    <string name="mus24_main_text">What kind of person feels accomplished after doing that to the old man? You are a terrible person!</string>
+    <string name="mus24_option1">Whatever</string>
+    <string name="mus24_option2">Whatever</string>
+    <string name="mus24_option3">Whatever</string>
+
+    <string name="mus25_main_text">You hand him the corpse, he cries but thanks you for giving it to him.</string>
+    <string name="mus25_option1">Feel good</string>
+    <string name="mus25_option2">Feel sad for the old man</string>
+    <string name="mus25_option3">Don\'t feel anything</string>
+
+    <string name="mus26_main_text">You apply the leaf and feel its juices slipping into your bloodstream. The world seems different afterwards... But you keep walking and come upon a village</string>
+    <string name="mus26_option1">Enter the Village</string>
+    <string name="mus26_option2">Go around the Village</string>
+    <string name="mus26_option3">Call it quits and go home</string>
+
+    <string name="mus27_main_text">You apply the bandage and keep walking until you see a village.</string>
+    <string name="mus27_option1">Enter the Village</string>
+    <string name="mus27_option2">Go around the Village</string>
+    <string name="mus27_option3">Call it quits and go home</string>
+
+    <string name="mus28_main_text">You figure that it will heal itself and no need to waste Bandaids or the leaf. You keep walking and come upon a village</string>
+    <string name="mus28_option1">Enter the Village</string>
+    <string name="mus28_option2">Go around the Village</string>
+    <string name="mus28_option3">Call it quits and go home</string>
+
+    <string name="mus29_main_text">You enter the village and are immediately greeted with gifts from the friendly natives. They offer you food, medicine, and a good nights sleep</string>
+    <string name="mus29_option1">Accept the gifts</string>
+    <string name="mus29_option2">Ignore the gifts and keep walking through the village</string>
+    <string name="mus29_option3">I love gifts!</string>
+
+    <string name="mus30_main_text">You successfully murdered everyone in the village... You are now a mass murderer... Did you ever think of the children in the village? Women and children! And you slaughtered them... I am ashamed. This was supposed to be a fun entertaining adventure but you turned it into the story of a psychopath... This is your last choice before you turn completely into a mass murderer... Choose wisely...</string>
+    <string name="mus30_option1">Bury Everyone</string>
+    <string name="mus30_option2">Spit on their bodies like the peasants they were</string>
+    <string name="mus30_option3">Pet the ghost cat next to you</string>
+
+    <string name="mus31_main_text">To continue on this path of the story you must spend $2.99. Or you can restart the story again.</string>
+    <string name="mus31_option1">You got the PayWall ending</string>
+    <string name="mus31_option2">You got the PayWall ending</string>
+    <string name="mus31_option3">You got the PayWall ending</string>
+
+    <string name="mus32_main_text">You and your cat enter the village. Everything seems quiet... All of a sudden you get jumped and a bag is thrown over your head.</string>
+    <string name="mus32_option1">Fight!</string>
+    <string name="mus32_option2">Let it happen</string>
+    <string name="mus32_option3">Try to reason with them</string>
+
+    <string name="mus33_main_text">You enter the village... For some reason you can\'t find anyone. Then you walk into what seems to be the town center. Everyone is kneeling before a statue that looks a lot like you... Wait a minute. That is you! The village people turn around and call out to you in their language. You don\'t know what they are saying but they all seem excited. What do you do?</string>
+    <string name="mus33_option1">Aw hell no! (Run away)</string>
+    <string name="mus33_option2">Let it happen</string>
+    <string name="mus33_option3">Fight!</string>
+
+
 
 </resources>
