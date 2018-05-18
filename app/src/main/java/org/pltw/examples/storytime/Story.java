@@ -36,7 +36,7 @@ public class Story {
 
 
 
-//vvvvvvvvvvvvvvvvvv INT Stages vvvvvvvvvvvvvvvvvv
+        //vvvvvvvvvvvvvvvvvv INT Stages vvvvvvvvvvvvvvvvvv
         Stage int0 = new Stage(INT, R.string.int0_main_text, R.string.int0_option1, R.string.int0_option2, R.string.int0_option3, 0, 1, 2, 3);
         Stage int1 = new Stage(INT, R.string.int1_main_text, R.string.int1_option1, R.string.int1_option2, R.string.int1_option3, 1, 4, 5, 6);
         Stage int2 = new Stage(INT, R.string.int2_main_text, R.string.int2_option1, R.string.int2_option2, R.string.int2_option3, 2, 1, 7, 7);
