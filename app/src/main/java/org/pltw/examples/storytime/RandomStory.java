@@ -41,7 +41,7 @@ public class RandomStory extends MainActivity {
                 storyString = getString(R.string.story_about_treeEvent);
                 if(knife== true || walkingStick == true) {
                 //Put the Badger out of its misery
-                    //Set Guilt == true
+                    //Set Guilt == true;
                 }
                 //if(intelligence >= 15) {
 
