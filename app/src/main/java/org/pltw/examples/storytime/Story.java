@@ -139,8 +139,19 @@ public class Story {
 
 
 
-
-
+        Stage mus0 = new Stage(MUS, R.string.mus0_main_text, R.string.mus0_option1, R.string.mus0_option2, R.string.mus0_option3, 0, 1, 1, 1);
+        Stage mus1 = new Stage(MUS, R.string.mus1_main_text, R.string.mus1_option1, R.string.mus1_option2, R.string.mus1_option3, 1, 2, 2, 2);
+        Stage mus2 = new Stage(MUS, R.string.mus2_main_text, R.string.mus2_option1, R.string.mus2_option2, R.string.mus2_option3, 2, 3, 3, 3);
+        Stage mus3 = new Stage(MUS, R.string.mus3_main_text, R.string.mus3_option1, R.string.mus3_option2, R.string.mus3_option3, 3, 4, 5, 6);
+        Stage mus4 = new Stage(MUS, R.string.mus4_main_text, R.string.mus4_option1, R.string.mus4_option2, R.string.mus4_option3, 4, 9, 11, 8);
+        Stage mus5 = new Stage(MUS, R.string.mus5_main_text, R.string.mus5_option1, R.string.mus5_option2, R.string.mus5_option3, 5, 9, 10, 8);
+        Stage mus6 = new Stage(MUS, R.string.mus6_main_text, R.string.mus6_option1, R.string.mus6_option2, R.string.mus6_option3, 6, 4, 7, 8);
+        Stage mus7 = new Stage(MUS, R.string.mus7_main_text, R.string.mus7_option1, R.string.mus7_option2, R.string.mus7_option3, 7, 12, 13, 8);
+        Stage mus8 = new Stage(MUS, R.string.mus8_main_text, R.string.mus8_option1, R.string.mus8_option2, R.string.mus8_option3, 8, 14, 14, 16);
+        Stage mus9 = new Stage(MUS, R.string.mus9_main_text, R.string.mus9_option1, R.string.mus9_option2, R.string.mus9_option3, 9, 18, 19, 15);
+        Stage mus10 = new Stage(MUS, R.string.mus10_main_text, R.string.mus10_option1, R.string.mus10_option2, R.string.mus10_option3, 10, 17, 14, 16);
+        Stage mus11 = new Stage(MUS, R.string.mus11_main_text, R.string.mus11_option1, R.string.mus11_option2, R.string.mus11_option3, 11, 22, 18, 19);
+        
 
 
 
