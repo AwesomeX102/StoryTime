@@ -166,7 +166,7 @@
     <string name="mus32_option3">Try to reason with them</string>
 
     <string name="mus33_main_text">You enter the village... For some reason you can\'t find anyone. Then you walk into what seems to be the town center. Everyone is kneeling before a statue that looks a lot like you... Wait a minute. That is you! The village people turn around and call out to you in their language. You don\'t know what they are saying but they all seem excited. What do you do?</string>
-    <string name="mus33_option1">Aw hell no! (Run away)</string>
+    <string name="mus33_option1">Aw heck no! (Run away)</string>
     <string name="mus33_option2">Let it happen</string>
     <string name="mus33_option3">Fight!</string>
 
@@ -175,7 +175,95 @@
     <string name="mus34_option2">Stop and try to get your bearings</string>
     <string name="mus34_option3">Find your way home</string>
 
+    <string name="mus35_main_text">You decide to accept the gifts. They are free after all? You spend the night but when you wake up in the morning you notice everything is quiet... to quiet...</string>
+    <string name="mus35_option1">Go find out what happened</string>
+    <string name="mus35_option2">Leave through the window and run away</string>
+    <string name="mus35_option3">Keep sleeping</string>
 
+    <string name="mus36_main_text">You decide that enough it enough and decide to go home. Your story ends. Your life has no meaning. How sad...</string>
+    <string name="mus36_option1">You got the boring ending</string>
+    <string name="mus36_option2">You got the boring ending</string>
+    <string name="mus36_option3">You got the boring ending</string>
+
+    <string name="mus37_main_text">You fight but with the bag over your head you don\'t seem to affect much. You blindly punch around until you get hit on the head and feel drowsy... You hear a faint meow before you pass out.</string>
+    <string name="mus37_option1">Sleep... </string>
+    <string name="mus37_option2">That sucks... </string>
+    <string name="mus37_option3">Kitty!...</string>
+
+    <string name="mus38_main_text">You let the villagers kidnap you. Knowing that there is no point to fighting. You hear your cat roar a meow, a fight of some sort and then silence. You hope that he is okay...</string>
+    <string name="mus38_option1">Kitty!</string>
+    <string name="mus38_option2">Get help Kitty!</string>
+    <string name="mus38_option3">Run!</string>
+
+    <string name="mus39_main_text">You run. And run. And run. And keep running til you cannot run no more. You are definitely lost and cannot gather where you are by looking at the map. What now?</string>
+    <string name="mus39_option1">Start walking in a direction</string>
+    <string name="mus39_option2">Gather your bearings</string>
+    <string name="mus39_option3">Keep running</string>
+
+    <string name="mus40_main_text">You let the villagers swarm you. They seem to be praising you. Anointing you in water, still repeating the same word over and over. You begin to realize that they think you are a god!</string>
+    <string name="mus40_option1">I am a god!</string>
+    <string name="mus40_option2">Accept their praises</string>
+    <string name="mus40_option3">I am no god!! (Run away)</string>
+
+    <string name="mus41_main_text">You stand your ground against the swarm of villagers. You wind up your fist and throw a punch at the man leading the swarm. All of a sudden everything turns white and your ears are ringing. When the effects fade you look around and see that all the villagers are gone. In their place is their clothes lying on the ground. No trace of them left...</string>
+    <string name="mus41_option1">I am a god!</string>
+    <string name="mus41_option2">Wait what?</string>
+    <string name="mus41_option3">Who did this?</string>
+
+    <string name="mus42_main_text">Wow, disrespecting their corpses? That is just rude now... You need some help... At this point I\'ve given up. You have ruined this game... Turned a nice fun action game into a horror game. A horror for everyone else that is!</string>
+    <string name="mus42_option1">I love horror games!!</string>
+    <string name="mus42_option2">(Recommended) WHOS NEXT?</string>
+    <string name="mus42_option3">IM COMING FOR YOU NARRATOR!</string>
+
+    <string name="mus43_main_text">Wait... Did you just pet nothing at your side? I think you are actually insane... At first i thought it was killing for enjoyment but now... Are you petting a hallucination?</string>
+    <string name="mus43_option1"> I like kitties...</string>
+    <string name="mus43_option2">He is so real!</string>
+    <string name="mus43_option3">Real or not he is cute...</string>
+
+    <string name="mus44_main_text">You decide to look around. You notice that there is a fire at the center of the village. You move slowly towards it and begin to hear crying. As you creep closer you begin to see the situation at hand. You see that all your villager friends are being held captive. Some of them are dead on the ground, including the tribe leader... There are about six masked men armed with spears and knives. What do you do?</string>
+    <string name="mus44_option1">Lets fight!</string>
+    <string name="mus44_option2">Use a distraction</string>
+    <string name="mus44_option3">Run away!</string>
+
+    <string name="mus45_main_text">You decide to go back to sleep........................ Until all of a sudden you feel a sharp pain. You wake up and see a masked man with a knife to your side. Actually it\'s in your side! He just stabbed you! You try to get up but the masked man puts you out of your misery...</string>
+    <string name="mus45_option1">You got the death ending</string>
+    <string name="mus45_option2">You got the death ending</string>
+    <string name="mus45_option3">You got the death ending</string>
+
+    <string name="mus46_main_text">You have walked for ages. Your feet are sore and you need to take a break.</string>
+    <string name="mus46_option1">Take a break on the nearby rock</string>
+    <string name="mus46_option2">Take a break on a nearby fallen tree</string>
+    <string name="mus46_option3">Take a break on the ground</string>
+
+    <string name="mus47_main_text">No matter what you do you cannot get your bearings...</string>
+    <string name="mus47_option1">Keep walking</string>
+    <string name="mus47_option2">Stop and try to get your bearings again...</string>
+    <string name="mus47_option3">Find your way home</string>
+
+    <string name="mus48_main_text">Really? I just told you that you can\'t get your bearings... Are you gonna keep trying?</string>
+    <string name="mus48_option1">Keep walking</string>
+    <string name="mus48_option2">Try to get your bearings again...</string>
+    <string name="mus48_option3">Find your way home</string>
+
+    <string name="mus49_main_text">Okay there is no point to this. Just keep walking! There is no point! Continue the story. Right now you are staring at a map looking confused and dumb... Keep walking!</string>
+    <string name="mus49_option1">Keep walking</string>
+    <string name="mus49_option2">Try to get your bearings again...</string>
+    <string name="mus49_option3">Find your way home</string>
+
+    <string name="mus50_main_text">FINE! Since you have no clue i\'ll tell you where to go! Just turn right and take 30 paces until you see a cave. Then enter it! Are you satisfied now?</string>
+    <string name="mus50_option1">Thanks!</string>
+    <string name="mus50_option2">Nah I don\'t trust you</string>
+    <string name="mus50_option3">Try to get your bearings again...</string>
+
+    <string name="mus51_main_text">You end up inside a hut with a weird looking man talking to you in a different language. You cannot understand what he is saying but it seems serious.</string>
+    <string name="mus51_option1">Look confused</string>
+    <string name="mus51_option2">Nod your head yes over and over...</string>
+    <string name="mus51_option3">Look around the room</string>
+
+    <string name="mus52_main_text">You start walking in a direction until you see a cave. You also hear a growling behind you. What do you do?</string>
+    <string name="mus52_option1">Enter the cave</string>
+    <string name="mus52_option2">Turn around</string>
+    <string name="mus52_option3">Go home</string>
 
 
 
