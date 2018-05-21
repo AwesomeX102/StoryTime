@@ -170,6 +170,13 @@
     <string name="mus33_option2">Let it happen</string>
     <string name="mus33_option3">Fight!</string>
 
+    <string name="mus34_main_text">You keep moving, completely forgetting the village for better or for worse. You realize that you have not looked at your map in a while and seem to be lost... You have no idea where to go... Now what?</string>
+    <string name="mus34_option1">Keep walking</string>
+    <string name="mus34_option2">Stop and try to get your bearings</string>
+    <string name="mus34_option3">Find your way home</string>
+
+
+
 
 
 </resources>
