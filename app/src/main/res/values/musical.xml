@@ -40,7 +40,7 @@
     <string name="mus7_option2">Run away with cat</string>
     <string name="mus7_option3">Leave the cat to deal with it</string>
 
-    <string name="mus8_main_text">You leave the cat and feel guilty about not befriending him. Maybe it's for the best. As you walk away you meet a old man looking for his cat, Purtis.</string>
+    <string name="mus8_main_text">You leave the cat and feel guilty about not befriending him. Maybe it\'s for the best. As you walk away you meet a old man looking for his cat, Purtis.</string>
     <string name="mus8_option1">Tell him what happened</string>
     <string name="mus8_option2">Say nothing</string>
     <string name="mus8_option3">NO WITNESSES!</string>
@@ -264,6 +264,73 @@
     <string name="mus52_option1">Enter the cave</string>
     <string name="mus52_option2">Turn around</string>
     <string name="mus52_option3">Go home</string>
+
+    <string name="mus53_main_text">You keep running and are still tired.</string>
+    <string name="mus53_option1">Start walking in a direction</string>
+    <string name="mus53_option2">Gather your bearings</string>
+    <string name="mus53_option3">Keep running</string>
+
+    <string name="mus54_main_text">You let the villagers worship you. They give you their best hut and you have servants whenever you need them for whatever you need them for. They teach you how to use your powers so that you can defend the village. A few weeks pass in your life of luxury. Then you remember the map.</string>
+    <string name="mus54_option1">Forget the map</string>
+    <string name="mus54_option2">Time to finish my quest!</string>
+    <string name="mus54_option3">Enjoy the pleasures of being a god</string>
+
+    <string name="mus55_main_text">After a while of pondering what happened. You decide to do some testing. You wind up and punch...</string>
+    <string name="mus55_option1">A tree</string>
+    <string name="mus55_option2">A rock</string>
+    <string name="mus55_option3">Yourself</string>
+
+    <string name="mus56_main_text">You think that someone else did this as there is no evidence towards you eliminating all the villagers. Despite the fact that you were the only survivor and the fact that you were the one who threw the first punch you somehow don\'t figure out it was you who threw the punch.</string>
+    <string name="mus56_option1">Maybe it was me...</string>
+    <string name="mus56_option2">It was definitely not me</string>
+    <string name="mus56_option3">Maybe you are right</string>
+
+    <string name="mus57_main_text">Well go play some horror game then! I recommend one that you don\'t end up being the killer cause you would have to much power. Try "Doki Doki Literature club". That game will scar you for life...</string>
+    <string name="mus57_option1">You got the horror game ending</string>
+    <string name="mus57_option2">You got the horror game ending</string>
+    <string name="mus57_option3">You got the horror game ending</string>
+
+    <string name="mus58_main_text">Just go to the cave... All i\'m saying</string>
+    <string name="mus58_option1">Mmmmmm more blood!</string>
+    <string name="mus58_option2">HAHA I LOVE MURDER!!</string>
+    <string name="mus58_option3">I like dark places...</string>
+
+    <string name="mus59_main_text">Haha good one. I\'m not in the same world as you idiot. I am currently in a room typing this into your game. There is absolutely no way... you... can... find.. me... Sorry someone is knocking at my door. I\'ll be back.</string>
+    <string name="mus59_option1">You got the Narrator Death ending</string>
+    <string name="mus59_option2">You got the Narrator Death ending</string>
+    <string name="mus59_option3">You got the Narrator Death ending</string>
+
+    <string name="mus60_main_text">Really? There is no cat! </string>
+    <string name="mus60_option1">Talk to your cat army</string>
+    <string name="mus60_option2">Give an inspirational speech to all your new cat friends</string>
+    <string name="mus60_option3">Give your first command to your new army</string>
+
+    <string name="mus61_main_text">You jump out of the bushes and punch the first masked man you see. He falls instantly.</string>
+    <string name="mus61_option1">Keep fighting</string>
+    <string name="mus61_option2">Rescue the villagers</string>
+    <string name="mus61_option3">Run away!</string>
+
+    <string name="mus62_main_text">You decide to look around for a distraction. You notice some gunpowder leading to a large barrel of it. You take out your lighter and light the gunpowder. You wait in the bushes until it explodes. Now what?</string>
+    <string name="mus62_option1">Let\'s fight!</string>
+    <string name="mus62_option2">Rescue the villagers</string>
+    <string name="mus62_option3">Run away!</string>
+
+    <string name="mus63_main_text">You decide to rest for a bit. </string>
+    <string name="mus63_option1">Keep walking</string>
+    <string name="mus63_option2">Try to get your bearings</string>
+    <string name="mus63_option3">Go home</string>
+
+    <string name="mus64_main_text">You follow the narrators instructions and find the cave after a while. As you are walking you hear something almost echoing your footsteps.</string>
+    <string name="mus64_option1">Enter the cave</string>
+    <string name="mus64_option2">Turn around</string>
+    <string name="mus64_option3">Go home</string>
+
+    <string name="mus65_main_text">You stand in one spot trying to get your bearings (since you don\'t trust me). After a while you begin to feel hungry, but because of your stubbornness you still try to gain your bearings. You eventually pass out and die of starvation. Serves you right.</string>
+    <string name="mus65_option1">You got the stubborn ending</string>
+    <string name="mus65_option2">You got the stubborn ending</string>
+    <string name="mus65_option3">You got the stubborn ending</string>
+
+    
 
 
 
