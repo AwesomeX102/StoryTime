@@ -40,7 +40,7 @@
     <string name="mus7_option2">Run away with cat</string>
     <string name="mus7_option3">Leave the cat to deal with it</string>
 
-    <string name="mus8_main_text">You leave the cat and feel guilty about not befriending him. Maybe it's for the best. As you walk away you meet a old man looking for his cat, Purtis.</string>
+    <string name="mus8_main_text">You leave the cat and feel guilty about not befriending him. Maybe it\'s for the best. As you walk away you meet a old man looking for his cat, Purtis.</string>
     <string name="mus8_option1">Tell him what happened</string>
     <string name="mus8_option2">Say nothing</string>
     <string name="mus8_option3">NO WITNESSES!</string>
@@ -264,6 +264,33 @@
     <string name="mus52_option1">Enter the cave</string>
     <string name="mus52_option2">Turn around</string>
     <string name="mus52_option3">Go home</string>
+
+    <string name="mus53_main_text">You keep running and are still tired.</string>
+    <string name="mus53_option1">Start walking in a direction</string>
+    <string name="mus53_option2">Gather your bearings</string>
+    <string name="mus53_option3">Keep running</string>
+
+    <string name="mus54_main_text">You let the villagers worship you. They give you their best hut and you have servants whenever you need them for whatever you need them for. They teach you how to use your powers so that you can defend the village. A few weeks pass in your life of luxury. Then you remember the map.</string>
+    <string name="mus54_option1">Forget the map</string>
+    <string name="mus54_option2">Time to finish my quest!</string>
+    <string name="mus54_option3">Enjoy the pleasures of being a god</string>
+
+    <string name="mus55_main_text">After a while of pondering what happened. You decide to do some testing. You wind up and punch...</string>
+    <string name="mus55_option1">A tree</string>
+    <string name="mus55_option2">A rock</string>
+    <string name="mus55_option3">Yourself</string>
+
+    <string name="mus56_main_text">You think that someone else did this as there is no evidence towards you eliminating all the villagers. Despite the fact that you were the only survivor and the fact that you were the one who threw the first punch you somehow don\'t figure out it was you who threw the punch.</string>
+    <string name="mus56_option1">Maybe it was me...</string>
+    <string name="mus56_option2">It was definitely not me</string>
+    <string name="mus56_option3">Maybe you are right</string>
+
+    <string name="mus57_main_text">Well go play some horror game then! I recommend one that you don\'t end up being the killer cause you would have to much power. Try "Doki Doki Literature club". That game will scar you for life...</string>
+    <string name="mus57_option1">You got the horror game ending</string>
+    <string name="mus57_option2">You got the horror game ending</string>
+    <string name="mus57_option3">You got the horror game ending</string>
+
+
 
 
 
