@@ -290,7 +290,47 @@
     <string name="mus57_option2">You got the horror game ending</string>
     <string name="mus57_option3">You got the horror game ending</string>
 
+    <string name="mus58_main_text">Just go to the cave... All i\'m saying</string>
+    <string name="mus58_option1">Mmmmmm more blood!</string>
+    <string name="mus58_option2">HAHA I LOVE MURDER!!</string>
+    <string name="mus58_option3">I like dark places...</string>
 
+    <string name="mus59_main_text">Haha good one. I\'m not in the same world as you idiot. I am currently in a room typing this into your game. There is absolutely no way... you... can... find.. me... Sorry someone is knocking at my door. I\'ll be back.</string>
+    <string name="mus59_option1">You got the Narrator Death ending</string>
+    <string name="mus59_option2">You got the Narrator Death ending</string>
+    <string name="mus59_option3">You got the Narrator Death ending</string>
+
+    <string name="mus60_main_text">Really? There is no cat! </string>
+    <string name="mus60_option1">Talk to your cat army</string>
+    <string name="mus60_option2">Give an inspirational speech to all your new cat friends</string>
+    <string name="mus60_option3">Give your first command to your new army</string>
+
+    <string name="mus61_main_text">You jump out of the bushes and punch the first masked man you see. He falls instantly.</string>
+    <string name="mus61_option1">Keep fighting</string>
+    <string name="mus61_option2">Rescue the villagers</string>
+    <string name="mus61_option3">Run away!</string>
+
+    <string name="mus62_main_text">You decide to look around for a distraction. You notice some gunpowder leading to a large barrel of it. You take out your lighter and light the gunpowder. You wait in the bushes until it explodes. Now what?</string>
+    <string name="mus62_option1">Let\'s fight!</string>
+    <string name="mus62_option2">Rescue the villagers</string>
+    <string name="mus62_option3">Run away!</string>
+
+    <string name="mus63_main_text">You decide to rest for a bit. </string>
+    <string name="mus63_option1">Keep walking</string>
+    <string name="mus63_option2">Try to get your bearings</string>
+    <string name="mus63_option3">Go home</string>
+
+    <string name="mus64_main_text">You follow the narrators instructions and find the cave after a while. As you are walking you hear something almost echoing your footsteps.</string>
+    <string name="mus64_option1">Enter the cave</string>
+    <string name="mus64_option2">Turn around</string>
+    <string name="mus64_option3">Go home</string>
+
+    <string name="mus65_main_text">You stand in one spot trying to get your bearings (since you don\'t trust me). After a while you begin to feel hungry, but because of your stubbornness you still try to gain your bearings. You eventually pass out and die of starvation. Serves you right.</string>
+    <string name="mus65_option1">You got the stubborn ending</string>
+    <string name="mus65_option2">You got the stubborn ending</string>
+    <string name="mus65_option3">You got the stubborn ending</string>
+
+    
 
 
 
