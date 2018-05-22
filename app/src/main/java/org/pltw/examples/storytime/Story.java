@@ -138,7 +138,7 @@ public class Story {
         Stage int98 = new Stage(INT, R.string.int98_main_text, R.string.int98_option1, R.string.int98_option2, R.string.int98_option3, 98, -1, -1, -1);
 
 
-
+//vvvvvvvvvvvvvvvvvv MUS Stages vvvvvvvvvvvvvvvvvv
         Stage mus0 = new Stage(MUS, R.string.mus0_main_text, R.string.mus0_option1, R.string.mus0_option2, R.string.mus0_option3, 0, 1, 1, 1);
         Stage mus1 = new Stage(MUS, R.string.mus1_main_text, R.string.mus1_option1, R.string.mus1_option2, R.string.mus1_option3, 1, 2, 2, 2);
         Stage mus2 = new Stage(MUS, R.string.mus2_main_text, R.string.mus2_option1, R.string.mus2_option2, R.string.mus2_option3, 2, 3, 3, 3);
