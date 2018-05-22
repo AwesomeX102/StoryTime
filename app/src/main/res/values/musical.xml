@@ -330,7 +330,60 @@
     <string name="mus65_option2">You got the stubborn ending</string>
     <string name="mus65_option3">You got the stubborn ending</string>
 
-    
+    <string name="mus66_main_text">The chief notices how confused you look. He brings in a translator and he translates. Although the translator\'s english is not perfect. You get the gist that the village you are in is composed of people who were banned from society for eating cats.</string>
+    <string name="mus66_option1">Kitty!</string>
+    <string name="mus66_option2">Oh no...</string>
+    <string name="mus66_option3">Im coming!</string>
+
+    <string name="mus67_main_text">You look around and see a lot of cat pelts. It almost seems like the skin cats for a living...</string>
+    <string name="mus67_option1">Kitty!</string>
+    <string name="mus67_option2">Oh no...</string>
+    <string name="mus67_option3">Im coming!</string>
+
+    <string name="mus68_main_text">You enter the cave. Ignoring the thing behind you. As you walk into it you start to hear a person. The voice sounds familiar and as you move towards it you see who it is. Its STEVE!</string>
+    <string name="mus68_option1">STEVE!</string>
+    <string name="mus68_option2">The Janitor?</string>
+    <string name="mus68_option3">I love Steve!</string>
+
+    <string name="mus69_main_text">You turn around to confront the thing behind you. But before you can fully turn around you are tackled by a furry body. The thing that was making noises is on you! </string>
+    <string name="mus69_option1">Throw it off and run into the cave</string>
+    <string name="mus69_option2">Pet it</string>
+    <string name="mus69_option3">Just Brush it off</string>
+
+    <string name="mus70_main_text">You forget the map and continue to live your life of luxury. </string>
+    <string name="mus70_option1">You got the luxury end</string>
+    <string name="mus70_option2">You got the luxury end</string>
+    <string name="mus70_option3">You got the luxury end</string>
+
+    <string name="mus71_main_text">You remember the details about the map and head towards the cave where the X was. When you reach the cave you enter it and hear a voice.The voice sounds familiar and as you move towards it you see who it is. Its STEVE!</string>
+    <string name="mus71_option1">Steve?</string>
+    <string name="mus71_option2">The Janitor?</string>
+    <string name="mus71_option3">The creepy guy?</string>
+
+    <string name="mus72_main_text">You punch the tree and all of a sudden every tree in a quarter mile radius in the forest disappears...</string>
+    <string name="mus72_option1">I am a superhero!</string>
+    <string name="mus72_option2">I have powers!</string>
+    <string name="mus72_option3">HECK YEAH!</string>
+
+    <string name="mus73_main_text">You punch the rock and all surrounding rocks disappear including the one you punched...</string>
+    <string name="mus73_option1">I am a superhero!</string>
+    <string name="mus73_option2">I have powers!</string>
+    <string name="mus73_option3">HECK YEAH!</string>
+
+    <string name="mus74_main_text">You punch yourself and everything turns white. You are teleported into a world of white. You see some people off in the distance. You run to them and as you get closer you realize it is the villagers you made disappear. You stop running but it\'s too late. They have noticed you. They run at you but before you can start to run they tackle you and beat you to death...</string>
+    <string name="mus74_option1">You got the death by villager ending</string>
+    <string name="mus74_option2">You got the death by villager ending</string>
+    <string name="mus74_option3">You got the death by villager ending</string>
+
+    <string name="mus75_main_text">Okay... sure... You feel no guilt about eliminating an entire race because it was not you who did it.</string>
+    <string name="mus75_option1">Yup!</string>
+    <string name="mus75_option2">Maybe I do have powers...</string>
+    <string name="mus75_option3">Well I should catch the person that did this!</string>
+
+    <string name="mus76_main_text">Did you just talk to those invisible cats? And you told them to eliminate all humans?!?! I cannot even comprehend what is happening</string>
+    <string name="mus76_option1">The cats will rule!!</string>
+    <string name="mus76_option2">Long live cats</string>
+    <string name="mus76_option3">I am the ghost cat god!</string>
 
 
 
