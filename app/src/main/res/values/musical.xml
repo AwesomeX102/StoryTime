@@ -385,6 +385,146 @@
     <string name="mus76_option2">Long live cats</string>
     <string name="mus76_option3">I am the ghost cat god!</string>
 
+    <string name="mus77_main_text">You walk to the cave and enter it... You hear a voice...</string>
+    <string name="mus77_option1">KILL!</string>
+    <string name="mus77_option2">YOU WILL DIE!</string>
+    <string name="mus77_option3">HAHA I LOVE MURDER!!</string>
 
+    <string name="mus78_main_text">You punch the next masked man. He does not fall as easy but you still win. </string>
+    <string name="mus78_option1">Keep fighting</string>
+    <string name="mus78_option2">Rescue the villagers</string>
+    <string name="mus78_option3">Run away!</string>
+
+    <string name="mus79_main_text">You attempt to rescue the villagers but the masked men do not let you. They capture you while you tried to untie a villager. When you wake up you find yourself tied to a stake over a fire...</string>
+    <string name="mus79_option1">You got the cannibal ending</string>
+    <string name="mus79_option2">You got the cannibal ending</string>
+    <string name="mus79_option3">You got the cannibal ending</string>
+
+    <string name="mus80_main_text">You attempt to rescue the villagers. You succeed to untie most of them before the masked men see you. You leave a few villagers behind but the rest of them run with you from the village.</string>
+    <string name="mus80_option1">Run to the cave</string>
+    <string name="mus80_option2"></string>
+    <string name="mus80_option3"></string>
+
+    <string name="mus81_main_text">You leap out of your seat and run out of the hut. You look around for kitty. But he is nowhere to be seen.</string>
+    <string name="mus81_option1">Check a nearby hut</string>
+    <string name="mus81_option2">Look around more</string>
+    <string name="mus81_option3">Look inside a nearby sack</string>
+
+    <string name="mus82_main_text">You now know the extent of your powers. You realize you can become the greatest superhero ever.</string>
+    <string name="mus82_option1">To the cave!</string>
+    <string name="mus82_option2"></string>
+    <string name="mus82_option3"></string>
+
+    <string name="mus83_main_text">You spend the rest of your days searching for the person that murdered the entire village. You never find him/her.</string>
+    <string name="mus83_option1">You got the idiot ending</string>
+    <string name="mus83_option2">You got the idiot ending</string>
+    <string name="mus83_option3">You got the idiot ending</string>
+
+    <string name="mus84_main_text">You just sent a bunch of non existent beings too... wait a minute... What is happening!? Cars are driving off the roads! People have scratch marks all over them! You monster! You did this. I\'m going to end this before it gets worse!</string>
+    <string name="mus84_option1">No you don\'t!!</string>
+    <string name="mus84_option2">Get him cats!</string>
+    <string name="mus84_option3">Sick em!</string>
+
+    <string name="mus85_main_text">You run into the cave... Knife in hand (How did you get that?). As you run in you see a man. ITS STEVE!</string>
+    <string name="mus85_option1">KILL!</string>
+    <string name="mus85_option2">Wait...</string>
+    <string name="mus85_option3">HAHA I LOVE MURDER!!</string>
+
+    <string name="mus86_main_text">You and the villagers run into the nearby cave. You hear a voice and run to it in hopes of finding someone to help all of you. As you get closer you see who it is. ITS STEVE!</string>
+    <string name="mus86_option1">Steve?</string>
+    <string name="mus86_option2">Help us Steve!</string>
+    <string name="mus86_option3">Janitor?</string>
+
+    <string name="mus87_main_text">You found him! Kitty looks unconscious so you grab him and run out of the village. Never looking back.</string>
+    <string name="mus87_option1">Run into a nearby cave</string>
+    <string name="mus87_option2"></string>
+    <string name="mus87_option3"></string>
+
+    <string name="mus88_main_text">You run into a nearby cave with Kitty in your arms. You hear a voice. Maybe it\'s someone who will help you! As you get closer you see who it is. ITS STEVE!</string>
+    <string name="mus88_option1">Steve?</string>
+    <string name="mus88_option2">The Janitor?</string>
+    <string name="mus88_option3">Help us Steve!</string>
+
+    <string name="mus89_main_text">You instantly stab Steve before he explains anything. He mutters "why" before he collapses. You stab him repeatedly even after he has died... I don\'t know why you did this. You ruined the entire storyline of this game. If you really want to know what happens after this, nothing happens. You become a murderer of everything in the forest. No one knows about you. No one cares about you. You just kill everything and eat all the animals you killed. Somehow you found enjoyment out of this ending... I didn\'t... I am disappointed.</string>
+    <string name="mus89_option1">You got the disappointment ending</string>
+    <string name="mus89_option2">You got the disappointment ending</string>
+    <string name="mus89_option3">You got the disappointment ending</string>
+
+    <string name="mus90_main_text">You stop your murderous tendancies for one second and listen to Steve. He explains to you that he memorized the map you carried when you dropped it. He tells you that he still has no found the treasure... As he looks at you he notices the blood... He sees the knife in hand... He starts to run... But you don\'t let him. You scream bloody murder and chase after him. Once you do, you stab him repeatedly. You keep stabbing, and stabbing... and stabbing... </string>
+    <string name="mus90_option1">You got the stabbing ending</string>
+    <string name="mus90_option2">You got the stabbing ending</string>
+    <string name="mus90_option3">You got the stabbing ending</string>
+
+    <string name="mus91_main_text">Steve explains to you that when he briefly saw the map he decided to go to the X himself. You see him carrying a gauntlet of some sort. It has 5 gems on the fingers and one central gem in the middle. He claims that he is the god of the universe. He raises his hand into a position where he could snap his fingers instantly.</string>
+    <string name="mus91_option1">Let him snap</string>
+    <string name="mus91_option2">Not on my watch!</string>
+    <string name="mus91_option3">Run away!</string>
+
+    <string name="mus92_main_text">You keep punch the next masked men but he overpowers you. You fail to save the villagers.</string>
+    <string name="mus92_option1">You got the failure ending</string>
+    <string name="mus92_option2">You got the failure ending</string>
+    <string name="mus92_option3">You got the failure ending</string>
+
+    <string name="mus93_main_text">As you inch closer, Steve notices you. He explains to you how he memorized the map when you dropped it. He went his own way to the X. You see something shiny behind him. You ask what it is. Steve tells you that its his! And that you cannot have it!</string>
+    <string name="mus93_option1">Fight him for it</string>
+    <string name="mus93_option2">Let him have it</string>
+    <string name="mus93_option3">Run away</string>
+
+    <string name="mus94_main_text">You throw a punch at Steve but he dodges. Steve winds up a punch...</string>
+    <string name="mus94_option1">Block</string>
+    <string name="mus94_option2">Punch</string>
+    <string name="mus94_option3">Kick</string>
+
+    <string name="mus95_main_text">You let Steve have whatever it is. You head home and forget about the day.</string>
+    <string name="mus95_option1">You got the nice? ending</string>
+    <string name="mus95_option2">You got the nice? ending</string>
+    <string name="mus95_option3">You got the nice? ending</string>
+
+    <string name="mus96_main_text">You run away from creepy janitor Steve. Later that week you hear that Steve has been fired for stealing gold from the school. Turns out that thing he was hidding was the school\'s secret stash of gold. You never hear of Steve again and live the rest of your life normally.</string>
+    <string name="mus96_option1">You got the fired ending</string>
+    <string name="mus96_option2">You got the fired ending</string>
+    <string name="mus96_option3">You got the fired ending</string>
+
+    <string name="mus97_main_text">You block his punch successfully.</string>
+    <string name="mus97_option1">Punch</string>
+    <string name="mus97_option2">Block your face</string>
+    <string name="mus97_option3"></string>
+
+    <string name="mus98_main_text">You attack him as he attacks you. Both of you hit each other and fall on the ground. You both get up after a certain amount of time... Look at each other.</string>
+    <string name="mus98_option1">Fight!</string>
+    <string name="mus98_option2">Run away</string>
+    <string name="mus98_option3">Talk about your feelings</string>
+
+    <string name="mus99_main_text">You and Steve sit down and talk about your feelings. You discuss Steve\'s past life with how he used to be in the Navy. He tells you about the horrible shark attacks that he witnessed. And how his best freind died from one of them. You comfort him. Both of you become good freinds and forget about the treasure. You leave it behind and go back to school knowing you have made a friend along the way.</string>
+    <string name="mus99_option1">You got the friend ending</string>
+    <string name="mus99_option2">You got the friend ending</string>
+    <string name="mus99_option3">You got the friend ending</string>
+
+    <string name="mus100_main_text">You throw a punch at Steve and it connects. He falls on the ground. You broke his nose.</string>
+    <string name="mus100_option1">Take the treasure</string>
+    <string name="mus100_option2">Sit down next to Steve</string>
+    <string name="mus100_option3">Get help</string>
+
+    <string name="mus101_main_text">You block nothing and Steve talks advantage of your blindness and runs away with the treasure. Nice...</string>
+    <string name="mus101_option1">You got the Nice... ending</string>
+    <string name="mus101_option2">You got the Nice... ending</string>
+    <string name="mus101_option3">You got the Nice... ending</string>
+
+    <string name="mus102_main_text">You run up to the treasure and take it. You grab as much as you can but you cannot carry it all. You leave the cave with arms full of gold and diamonds. When you get home you hid them all under your bed and sell the gold and diamonds in a way so that you do not look suspicous. You become a billionaire and live out the rest of your days in a mansion.</string>
+    <string name="mus102_option1">You got the rich ending</string>
+    <string name="mus102_option2">You got the rich ending</string>
+    <string name="mus102_option3">You got the rich ending</string>
+
+    <string name="mus103_main_text">You run and get help but by the time you come back Steve is gone and so is the treasure...</string>
+    <string name="mus103_option1">You got the "DANG YOU STEVE!" ending</string>
+    <string name="mus103_option2">You got the "DANG YOU STEVE!" ending</string>
+    <string name="mus103_option3">You got the "DANG YOU STEVE!" ending</string>
+
+    <string name="mus104_main_text">You pet the animal. It purrs... Its another cat!!! </string>
+    <string name="mus104_option1">I love kitties!</string>
+    <string name="mus104_option2">Kitten!</string>
+    <string name="mus104_option3">Kitty!</string>
+
+    
 
 </resources>
