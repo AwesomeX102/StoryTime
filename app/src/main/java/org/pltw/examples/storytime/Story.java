@@ -370,35 +370,6 @@ public class Story {
         Stage mus136 = new Stage(MUS, R.string.mus136_main_text, R.string.mus136_option1, R.string.mus136_option2, R.string.mus136_option3, 136, -1, -1, -1);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         //^^^^^^^^^^^^^^^^^^ PUT STAGES HERE ^^^^^^^^^^^^^^^^^^
 
         for (Stage s : Stage.allStages) {
