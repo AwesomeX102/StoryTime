@@ -91,8 +91,8 @@
     <string name="mus17_option3">NO WITNESSES!</string>
 
     <string name="mus18_main_text">The cat scratches you and runs off. How do you treat the wound?</string>
-    <string name="mus18_option1">Find some spare leaves and use your bandaids as tape to stick the leaf over the wound</string>
-    <string name="mus18_option2">Use your bandaids</string>
+    <string name="mus18_option1">Find some spare leaves and use your Band-Aids as tape to stick the leaf over the wound</string>
+    <string name="mus18_option2">Use your Band-Aids. </string>
     <string name="mus18_option3">Ignore it</string>
 
     <string name="mus19_main_text">You keep walking and eventually see a village.</string>
@@ -140,7 +140,7 @@
     <string name="mus27_option2">Go around the Village</string>
     <string name="mus27_option3">Call it quits and go home</string>
 
-    <string name="mus28_main_text">You figure that it will heal itself and no need to waste Bandaids or the leaf. You keep walking and come upon a village</string>
+    <string name="mus28_main_text">You figure that it will heal itself and no need to waste Band-Aids or the leaf. You keep walking and come upon a village</string>
     <string name="mus28_option1">Enter the Village</string>
     <string name="mus28_option2">Go around the Village</string>
     <string name="mus28_option3">Call it quits and go home</string>
@@ -212,7 +212,7 @@
 
     <string name="mus42_main_text">Wow, disrespecting their corpses? That is just rude now... You need some help... At this point I\'ve given up. You have ruined this game... Turned a nice fun action game into a horror game. A horror for everyone else that is!</string>
     <string name="mus42_option1">I love horror games!!</string>
-    <string name="mus42_option2">(Recommended) WHOS NEXT?</string>
+    <string name="mus42_option2">(Recommended) WHO\'S NEXT?</string>
     <string name="mus42_option3">IM COMING FOR YOU NARRATOR!</string>
 
     <string name="mus43_main_text">Wait... Did you just pet nothing at your side? I think you are actually insane... At first i thought it was killing for enjoyment but now... Are you petting a hallucination?</string>
@@ -555,7 +555,7 @@
     <string name="mus110_option2">You got the "Dream?" ending</string>
     <string name="mus110_option3">You got the "Dream?" ending</string>
 
-    <string name="mus111_main_text">Steve explains to you that when he saw the dropped map, he had memorized and and decided to claim the treausure for himself. As he does this Kitty wakes up and seems fine. Steve notices the cat but does not say anything about it. Instead he tells you that he will not let you take the treasure from him. He pulls out a knife.</string>
+    <string name="mus111_main_text">Steve explains to you that when he saw the dropped map, he had memorized it and decided to claim the treasure for himself. As he does this Kitty wakes up and seems fine. Steve notices the cat but does not say anything about it. Instead he tells you that he will not let you take the treasure from him. He pulls out a knife.</string>
     <string name="mus111_option1">Fight!</string>
     <string name="mus111_option2">Runaway</string>
     <string name="mus111_option3">The treasure is mine!</string>
@@ -565,7 +565,7 @@
     <string name="mus112_option2">Kick!</string>
     <string name="mus112_option3">Let the cat deal with Steve</string>
 
-    <string name="mus113_main_text">You and Kitty run away and head towards your home. You will never forget that day. You and Kitty become best friends and you look foward to seeing him everyday after school.</string>
+    <string name="mus113_main_text">You and Kitty run away and head towards your home. You will never forget that day. You and Kitty become best friends and you look forward to seeing him everyday after school.</string>
     <string name="mus113_option1">You got the safe cat ending</string>
     <string name="mus113_option2">You got the safe cat ending</string>
     <string name="mus113_option3">You got the safe cat ending</string>
@@ -580,7 +580,7 @@
     <string name="mus115_option2">Swing again</string>
     <string name="mus115_option3">Recover footing</string>
 
-    <string name="mus116_main_text">You block immediatly after your miss and just in time. You block a punch from Steve.</string>
+    <string name="mus116_main_text">You block immediately after your miss and just in time. You block a punch from Steve.</string>
     <string name="mus116_option1">Punch</string>
     <string name="mus116_option2">Block</string>
     <string name="mus116_option3"></string>
