@@ -6,19 +6,11 @@
     <string name="optionTwo">2nd Option</string>
     <string name="optionThree">3rd Option</string>
 
-<!-- String Resources for Random Stories-->
-    <string name="story_about_wolf">This will be a story about Wolf.</string>
-    <string name="story_about_steve">This will be a story about Steve.</string>
-    <string name="story_about_hunger">This will be a story about Hunger.</string>
-    <string name="story_about_villageFriend">This will be a story about Village Friend.</string>
-    <string name="story_about_insanityLevels">This will be a story about Insanity Levels.</string>
-    <string name="story_about_treeEvent">You come up upon a badger. He seems to be stuck in a hole.</string>
-    <string name="story_about_intelligence">This will be a story about Intelligence.</string>
-    <string name="invalid_story">Invalid Story</string>
 
-    <string name="main_text">BLAAAH BLAAAAAAH! Your alarm is going off. It\'s the first day of high school. You lazily reach over and...</string>
-    <string name="option1">turn it off. You start getting ready for school.</string>
-    <string name="option2">hit the snooze button and go back to sleep.</string>
-    <string name="option3">turn it off and go back to sleep</string>
+
+    <string name="main_text">It\'s the first day of high school. You need to pick your classes. Which do you choose?</string>
+    <string name="option1">Computer Science 101</string>
+    <string name="option2">Band</string>
+    <string name="option3">Weight Training</string>
 
 </resources>

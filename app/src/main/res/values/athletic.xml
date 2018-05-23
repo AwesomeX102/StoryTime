@@ -1,32 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ath0_main_text">You wake up at 9:15. School has already started. You are uber late. What do you do?</string>
-    <string name="ath0_option1">Drop out.</string>
-    <string name="ath0_option2">Run to school.</string>
-    <string name="ath0_option3">Hitch hike to school.</string>
+    <string name="ath0_main_text">You make your way to weights class. Today is the first day, so you need to figure out your maxes for each lift. First up, benchpress How much weight do you start out with on?</string>
+    <string name="ath0_option1">100 lbs.</string>
+    <string name="ath0_option2">150 lbs.</string>
+    <string name="ath0_option3">200 lbs.</string>
 
-    <string name="ath1_main_text">You drop out of high school. You become a drug dealer and die to a cocaine overdose a few years later.</string>
-    <string name="ath1_option1">GAME OVER</string>
-    <string name="ath1_option2">GAME OVER</string>
-    <string name="ath1_option3">GAME OVER</string>
+    <string name="ath1_main_text">You put on the weights. You position yourself on the bench and lift the bar off the rack. Immediately, it falls onto your chest. You must have mixed up the weights! You never were very smart. As you struggle to breath, adrenaline rushed through your veins. You feel a strength unbeknownst to you before. You manage to lift the weight off of your chest, saving your life. What do you do next?</string>
+    <string name="ath1_option1">Get a drink</string>
+    <string name="ath1_option2">Runaway from this dumb class</string>
+    <string name="ath1_option3">Rampage with this new strength</string>
 
-    <string name="ath2_main_text">You decide that your best choice is to run to school. You are so late that you risk running across the street instead of waiting for the light. Fortunately, you are a pro at frogger. Unfortunately, a semi truck is surprisingly hard to avoid.</string>
-    <string name="ath2_option1">GAME OVER</string>
-    <string name="ath2_option2">GAME OVER</string>
-    <string name="ath2_option3">GAME OVER</string>
+    <string name="ath2_main_text">You walk towards the drinking fountain and some dumb kid drops a dumbbell on your foot. </string>
+    <string name="ath2_option1">You got the broken foot ending</string>
+    <string name="ath2_option2">You got the broken foot ending</string>
+    <string name="ath2_option3">You got the broken foot ending</string>
 
-    <string name="ath3_main_text">You think that it will be quicker to hitch hike to school than to run. You are quite smart! A man in an RV picks you up. You tell him where you\'re headed. He tells you that he isn\'t allowed within 1000 feet of a school, but he can get you that close. What do you do?</string>
-    <string name="ath3_option1">Get in and thank him.</string>
-    <string name="ath3_option2">Get in without thanking him.</string>
-    <string name="ath3_option3">Run to school.</string>
+    <string name="ath3_main_text">You run from the school and across the street. Unfortunately, the adrenaline has dulled your senses. You are hit by a car.</string>
+    <string name="ath3_option1">You got the death by car ending</string>
+    <string name="ath3_option2">You got the death by car ending</string>
+    <string name="ath3_option3">You got the death by car ending</string>
 
-    <string name="ath4_main_text">He takes you within 1000 feet of the school. However, there is a busy street between you and the school. Fortunately, you are a pro at frogger. Unfortunately, a semitruck is surprisingly hard to avoid.</string>
-    <string name="ath4_option1">GAME OVER</string>
-    <string name="ath4_option2">GAME OVER</string>
-    <string name="ath4_option3">GAME OVER</string>
-
-    <string name="ath5_main_text">He takes you within 1000 feet of the school. As you start to cross the street, he slams on the gas and hits you. All the while he is exclaiming, \"THIS IS FOR NOT THANKING ME FOR THE RIDE!\"</string>
-    <string name="ath5_option1">GAME OVER</string>
-    <string name="ath5_option2">GAME OVER</string>
-    <string name="ath5_option3">GAME OVER</string>
+    <string name="ath4_main_text">You run from the school and into the street. You feel invincible. You run at the oncoming traffic preparing to obliterate it. Unfortunately, you are not invincible. You are pancaked.</string>
+    <string name="ath4_option1">You got the death by stupidity ending</string>
+    <string name="ath4_option2">You got the death by stupidity ending</string>
+    <string name="ath4_option3">You got the death by stupidity ending</string>
 </resources>

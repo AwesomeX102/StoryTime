@@ -24,17 +24,11 @@ public class Story {
         initial = new Stage(-1, R.string.main_text,  R.string.option1,  R.string.option2,  R.string.option3, 0, 1, 2, 3);//MAKE THIS THE INTRO FOR ALL PATHS
 
         //vvvvvvvvvvvvvvvvvv PUT STAGES HERE vvvvvvvvvvvvvvvvvv
-        Stage ath0 = new Stage(ATH, R.string.ath0_main_text, R.string.ath0_option1, R.string.ath0_option2, R.string.ath0_option3, 0, 1, 2, 3);
-        Stage ath1 = new Stage(ATH, R.string.ath1_main_text, R.string.ath1_option1, R.string.ath1_option2, R.string.ath1_option3, 1, -1, -1, -1);
+        Stage ath0 = new Stage(ATH, R.string.ath0_main_text, R.string.ath0_option1, R.string.ath0_option2, R.string.ath0_option3, 0, 1, 1, 1);
+        Stage ath1 = new Stage(ATH, R.string.ath1_main_text, R.string.ath1_option1, R.string.ath1_option2, R.string.ath1_option3, 1, 2, 3, 4);
         Stage ath2 = new Stage(ATH, R.string.ath2_main_text, R.string.ath2_option1, R.string.ath2_option2, R.string.ath2_option3, 2, -1, -1, -1);
-        Stage ath3 = new Stage(ATH, R.string.ath3_main_text, R.string.ath3_option1, R.string.ath3_option2, R.string.ath3_option3, 3, 4, 5, 2);
+        Stage ath3 = new Stage(ATH, R.string.ath3_main_text, R.string.ath3_option1, R.string.ath3_option2, R.string.ath3_option3, 3, -1, -1, -1);
         Stage ath4 = new Stage(ATH, R.string.ath4_main_text, R.string.ath4_option1, R.string.ath4_option2, R.string.ath4_option3, 4, -1, -1, -1);
-        Stage ath5 = new Stage(ATH, R.string.ath5_main_text, R.string.ath5_option1, R.string.ath5_option2, R.string.ath5_option3, 5, -1, -1, -1);
-
-
-
-
-
 
         //vvvvvvvvvvvvvvvvvv INT Stages vvvvvvvvvvvvvvvvvv
         Stage int0 = new Stage(INT, R.string.int0_main_text, R.string.int0_option1, R.string.int0_option2, R.string.int0_option3, 0, 1, 2, 3);
