@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ath0_main_text">You make your way to weights class. Today is the first day, so you need to figure out your maxes for each lift. First up, benchpress How much weight do you start out with on?</string>
+    <string name="ath0_main_text">You make your way to weights class. Today is the first day, so you need to figure out your maxes for each lift. First up, benchpress. How much weight do you start out with on?</string>
     <string name="ath0_option1">100 lbs.</string>
     <string name="ath0_option2">150 lbs.</string>
     <string name="ath0_option3">200 lbs.</string>
 
-    <string name="ath1_main_text">You put on the weights. You position yourself on the bench and lift the bar off the rack. Immediately, it falls onto your chest. You must have mixed up the weights! You never were very smart. As you struggle to breath, adrenaline rushed through your veins. You feel a strength unbeknownst to you before. You manage to lift the weight off of your chest, saving your life. What do you do next?</string>
+    <string name="ath1_main_text">You put on the weights. You position yourself on the bench and lift the bar off the rack. Immediately, it falls onto your chest. You must have mixed up the weights! You never were very smart. As you struggle to breath, adrenaline rushes through your veins. You feel a strength unbeknownst to you before. You manage to lift the weight off of your chest, saving your life. What do you do next?</string>
     <string name="ath1_option1">Get a drink</string>
     <string name="ath1_option2">Runaway from this dumb class</string>
     <string name="ath1_option3">Rampage with this new strength</string>
