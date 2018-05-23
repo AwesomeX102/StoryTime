@@ -12,7 +12,7 @@
     <string name="int2_option1">Go to the pier.</string>
     <string name="int2_option2">Stay in class.</string>
     <string name="int2_option3">Head to the nearest emergency shelter. </string>
-    <string name="int3_main_text">You decide to investigate this clue a little more. You wouldn\'t want to be the one to jump to conclusions. Anyway, everyone has heard about the recent emergency and no one else's laptops have been taken hostage by a map. </string>
+    <string name="int3_main_text">You decide to investigate this clue a little more. You wouldn\'t want to be the one to jump to conclusions. Anyway, everyone has heard about the recent emergency and no one else\'s laptops have been taken hostage by a map. </string>
     <string name="int3_option1">Go talk to your friend about the note.</string>
     <string name="int3_option2">Go talk to your roommate about the note.</string>
     <string name="int3_option3">Go talk to the IT guy.</string>
