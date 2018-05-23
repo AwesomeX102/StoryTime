@@ -8,7 +8,7 @@
     <string name="int1_option1">Get in the white fishing boat.</string>
     <string name="int1_option2">Walk to the small grey boat.</string>
     <string name="int1_option3">You are not much of the thieving type. You look around for another clue.</string>
-    <string name="int2_main_text">You decide to be responsible and listen to your first class, but that note is still nagging at you. It doesn\'t help that then end of the world is all anybody is talking about. When the teacher starts the lecture, you try to take some notes on your laptop, but you can't seem to navigate anywhere but the map to the pier. </string>
+    <string name="int2_main_text">You decide to be responsible and listen to your first class, but that note is still nagging at you. It doesn\'t help that then end of the world is all anybody is talking about. When the teacher starts the lecture, you try to take some notes on your laptop, but you can\'t seem to navigate anywhere but the map to the pier. </string>
     <string name="int2_option1">Go to the pier.</string>
     <string name="int2_option2">Stay in class.</string>
     <string name="int2_option3">Head to the nearest emergency shelter. </string>
@@ -37,7 +37,7 @@
     <string name="int9_option1">Go to the pier.</string>
     <string name="int9_option2">Go back to investigating the note.</string>
     <string name="int9_option3">Go back to class</string>
-    <string name="int10_main_text">You are hoping that the IT guy Steve can shed some light on what happened to your computer, but he is a bit crazier than you remember and is a bit scary. When he analyzes your laptop, he finds that there are additional dots that are waiting to appear, but he doesn't know where they need to go. He suggests that you go to the pier to see if you can find out. </string>
+    <string name="int10_main_text">You are hoping that the IT guy Steve can shed some light on what happened to your computer, but he is a bit crazier than you remember and is a bit scary. When he analyzes your laptop, he finds that there are additional dots that are waiting to appear, but he doesn\'t know where they need to go. He suggests that you go to the pier to see if you can find out. </string>
     <string name="int10_option1">Go to the pier.</string>
     <string name="int10_option2">Go back to investigating the note.</string>
     <string name="int10_option3">Go back to class.</string>
