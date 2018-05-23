@@ -22,43 +22,6 @@ public class MainActivity extends AppCompatActivity{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    //Private Variables for Bailey
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    //Private Functions for Loren
-
     private void typeWriter(String string, TextView textBox){
         for(int i = 0; i < string.length(); i++){
             String x = "";
@@ -69,27 +32,6 @@ public class MainActivity extends AppCompatActivity{
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -167,7 +109,6 @@ public class MainActivity extends AppCompatActivity{
     }
 
 
-    //Private Functions for Bailey
 
 
     public TextView getMainTextStory() {

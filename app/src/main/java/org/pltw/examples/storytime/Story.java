@@ -30,11 +30,7 @@ public class Story {
         Stage ath3 = new Stage(ATH, R.string.ath3_main_text, R.string.ath3_option1, R.string.ath3_option2, R.string.ath3_option3, 3, 4, 5, 2);
         Stage ath4 = new Stage(ATH, R.string.ath4_main_text, R.string.ath4_option1, R.string.ath4_option2, R.string.ath4_option3, 4, -1, -1, -1);
         Stage ath5 = new Stage(ATH, R.string.ath5_main_text, R.string.ath5_option1, R.string.ath5_option2, R.string.ath5_option3, 5, -1, -1, -1);
-
-
-
-
-
+        
 
         //vvvvvvvvvvvvvvvvvv INT Stages vvvvvvvvvvvvvvvvvv
         Stage int0 = new Stage(INT, R.string.int0_main_text, R.string.int0_option1, R.string.int0_option2, R.string.int0_option3, 0, 1, 2, 3);
