@@ -159,7 +159,7 @@ public class Story {
         Stage mus21 = new Stage(MUS, R.string.mus21_main_text, R.string.mus21_option1, R.string.mus21_option2, R.string.mus21_option3, 21, 19, 19, 19);
         Stage mus22 = new Stage(MUS, R.string.mus22_main_text, R.string.mus22_option1, R.string.mus22_option2, R.string.mus22_option3, 22, 30, 29, 30);
         Stage mus23 = new Stage(MUS, R.string.mus23_main_text, R.string.mus23_option1, R.string.mus23_option2, R.string.mus23_option3, 23, 32, 34, 36);
-        Stage mus24 = new Stage(MUS, R.string.mus24_main_text, R.string.mus24_option1, R.string.mus24_option2, R.string.mus24_option3, 24, 23, 23, 23);
+        Stage mus24 = new Stage(MUS, R.string.mus24_main_text, R.string.mus24_option1, R.string.mus24_option2, R.string.mus24_option3, 24, 19, 19, 19);
         Stage mus25 = new Stage(MUS, R.string.mus25_main_text, R.string.mus25_option1, R.string.mus25_option2, R.string.mus25_option3, 25, 19, 19, 19);
         Stage mus26 = new Stage(MUS, R.string.mus26_main_text, R.string.mus26_option1, R.string.mus26_option2, R.string.mus26_option3, 26, 33, 34, 36);
         Stage mus27 = new Stage(MUS, R.string.mus27_main_text, R.string.mus27_option1, R.string.mus27_option2, R.string.mus27_option3, 27, 29, 34, 36);
