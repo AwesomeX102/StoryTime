@@ -525,6 +525,166 @@
     <string name="mus104_option2">Kitten!</string>
     <string name="mus104_option3">Kitty!</string>
 
-    
+    <string name="mus105_main_text">You cannot stop me now! Im going to.. Wait no! Stop! It hurts! You won\'t... get away.. with this...</string>
+    <string name="mus105_option1">You got the "I just did" ending</string>
+    <string name="mus105_option2">You got the "I just did" ending</string>
+    <string name="mus105_option3">You got the "I just did" ending</string>
+
+    <string name="mus106_main_text">As you run to Steve he starts to laugh... mainically... You and the villagers start to slow down. When you stop you notice the masked men are behind you. You are between the masked men and Steve, and by the looks of it, Steve does not want to help. </string>
+    <string name="mus106_option1">Let\'s go out with style!</string>
+    <string name="mus106_option2">Try to talk to Steve</string>
+    <string name="mus106_option3">This is the end</string>
+
+    <string name="mus107_main_text">You do not even try to negoitiate with Steve. You and the villagers go into fight mode. You fight the masked men and Steve. You and the villagers seem to be losing the battle. But as time goes on it seems to be evening out until its just you and Steve.</string>
+    <string name="mus107_option1">Let\'s do this</string>
+    <string name="mus107_option2">Let\'s fight</string>
+    <string name="mus107_option3">You are going down Janitor</string>
+
+    <string name="mus108_main_text">You try to talk to Steve. Steve explains to you that he memorized the map and followed it to the red X. He says that he will have the item and no one else will take it! He charges at you and the fight begins between you and the villagers, Steve and the masked men. You and the villagers seem to be losing the battle. But as time goes on it seems to be evening out until its just you and Steve.</string>
+    <string name="mus108_option1">Let\'s do this</string>
+    <string name="mus108_option2">Let\'s fight</string>
+    <string name="mus108_option3">You are going down Janitor</string>
+
+    <string name="mus109_main_text">You do not even try to fight. You turn around and see the masked men putting bags over the villagers heads. You turn around to look back at Steve and he is gone. Eventually they get to you and knock you out before they put the bag over your head.</string>
+    <string name="mus109_option1">Dang</string>
+    <string name="mus109_option2"></string>
+    <string name="mus109_option3"></string>
+
+    <string name="mus110_main_text">You wake up back at home.. Maybe it was all a dream... Or not? You will never know...</string>
+    <string name="mus110_option1">You got the "Dream?" ending</string>
+    <string name="mus110_option2">You got the "Dream?" ending</string>
+    <string name="mus110_option3">You got the "Dream?" ending</string>
+
+    <string name="mus111_main_text">Steve explains to you that when he saw the dropped map, he had memorized and and decided to claim the treausure for himself. As he does this Kitty wakes up and seems fine. Steve notices the cat but does not say anything about it. Instead he tells you that he will not let you take the treasure from him. He pulls out a knife.</string>
+    <string name="mus111_option1">Fight!</string>
+    <string name="mus111_option2">Runaway</string>
+    <string name="mus111_option3">The treasure is mine!</string>
+
+    <string name="mus112_main_text">You and Kitty prepare to fight. Steve swings with his knife but misses. Kitty runs up and scratches his ankles. Steve grabs his ankle in pain. What do you do?</string>
+    <string name="mus112_option1">Punch!</string>
+    <string name="mus112_option2">Kick!</string>
+    <string name="mus112_option3">Let the cat deal with Steve</string>
+
+    <string name="mus113_main_text">You and Kitty run away and head towards your home. You will never forget that day. You and Kitty become best friends and you look foward to seeing him everyday after school.</string>
+    <string name="mus113_option1">You got the safe cat ending</string>
+    <string name="mus113_option2">You got the safe cat ending</string>
+    <string name="mus113_option3">You got the safe cat ending</string>
+
+    <string name="mus114_main_text">You attack Steve as he grabs his ankle instantly putting Steve on the ground in tremoundous pain. You and the kitty run over to the treasure and grab what you can. You both runaway from the cave and head home. Over time you slowly sell the treasure and become a billionare. You and the cat become best friends and live out the rest of your life retired and in a mansion. </string>
+    <string name="mus114_option1">You got the teamwork ending...</string>
+    <string name="mus114_option2">You got the teamwork ending...</string>
+    <string name="mus114_option3">You got the teamwork ending...</string>
+
+    <string name="mus115_main_text">You yell and swing at Steve. You miss.</string>
+    <string name="mus115_option1">Block</string>
+    <string name="mus115_option2">Swing again</string>
+    <string name="mus115_option3">Recover footing</string>
+
+    <string name="mus116_main_text">You block immediatly after your miss and just in time. You block a punch from Steve.</string>
+    <string name="mus116_option1">Punch</string>
+    <string name="mus116_option2">Block</string>
+    <string name="mus116_option3"></string>
+
+    <string name="mus117_main_text">You attempt to swing again but before you can start Steve punches you. You fall on the ground...</string>
+    <string name="mus117_option1">Keep fighting</string>
+    <string name="mus117_option2">I don\'t give up easily</string>
+    <string name="mus117_option3">I give up</string>
+
+    <string name="mus118_main_text">You attempt to recover your footing but Steve punches you. You fall on the ground.</string>
+    <string name="mus118_option1">Keep fighting</string>
+    <string name="mus118_option2">I don\'t give up easily</string>
+    <string name="mus118_option3">I give up</string>
+
+    <string name="mus119_main_text">You punch Steve but he somehow blocks it.</string>
+    <string name="mus119_option1">Kick him</string>
+    <string name="mus119_option2">Punch again</string>
+    <string name="mus119_option3">Block</string>
+
+    <string name="mus120_main_text">Steve stands over your pathetic body. He kicks you once more for good measure and runs off. You are beaten and pass out. When you wake up you are in the hospital. You immediately tell the doctors your story but they believe you hit your head hard and are imagining things. Maybe you are... You live out the rest of your life in a mental asylum trying to tell everyone your story but no one believes you.</string>
+    <string name="mus120_option1">You got the asylum ending</string>
+    <string name="mus120_option2">You got the asylum ending</string>
+    <string name="mus120_option3">You got the asylum ending</string>
+
+    <string name="mus121_main_text">You block your face. Blinding yourself from Steve\'s next attack. Which was a kick. You fall on the ground...</string>
+    <string name="mus121_option1">Keep fighting</string>
+    <string name="mus121_option2">I don\'t give up easily</string>
+    <string name="mus121_option3">I give up</string>
+
+    <string name="mus122_main_text">You kick him where he is not blocking and it makes contact. But Steve recovers quickly...</string>
+    <string name="mus122_option1">Block</string>
+    <string name="mus122_option2">Punch</string>
+    <string name="mus122_option3">Recover footing</string>
+
+    <string name="mus123_main_text">You block his punch successfully.</string>
+    <string name="mus123_option1">Punch</string>
+    <string name="mus123_option2">Block</string>
+    <string name="mus123_option3">Kick</string>
+
+    <string name="mus124_main_text">You attack Steve and this time it knocks him down. He cries for mercy. You leave him be and go take the treasure. Which was only a GameBoy Advanced... Was it worth it? That\'s for you to decide while you play Pet Shop.</string>
+    <string name="mus124_option1">You got the "Hard work, Little Gain" ending</string>
+    <string name="mus124_option2">You got the "Hard work, Little Gain" ending</string>
+    <string name="mus124_option3">You got the "Hard work, Little Gain" ending</string>
+
+    <string name="mus125_main_text">Steve snaps his fingers... Suddenly you don\'t feel so good... You slowly disappear...</string>
+    <string name="mus125_option1">You got the meme ending</string>
+    <string name="mus125_option2">You got the meme ending</string>
+    <string name="mus125_option3">You got the meme ending</string>
+
+    <string name="mus126_main_text">You throw a punch at Steve. It misses but it distracts him from snapping his fingers.</string>
+    <string name="mus126_option1">Time to fly!!!</string>
+    <string name="mus126_option2">Keep swinging</string>
+    <string name="mus126_option3">Go invisible</string>
+
+    <string name="mus127_main_text">You run away from Steve trying to avoid the snap. You hear the snap... As you head home you call for you mom. But she does not exist... You look at the news and see that 3.5 million people have disappeared from the earth... Now what?</string>
+    <string name="mus127_option1">You got the "Infinity War" ending</string>
+    <string name="mus127_option2">You got the "Infinity War" ending</string>
+    <string name="mus127_option3">You got the "Infinity War" ending</string>
+
+
+    <string name="mus128_main_text">You all of a sudden start flying. You circle Steve and swing in from all angles. He reverts time to when he was in his snap position. </string>
+    <string name="mus128_option1">Fly</string>
+    <string name="mus128_option2">Punch</string>
+    <string name="mus128_option3">Go invisible</string>
+
+    <string name="mus129_main_text">You keep swinging at Steve. He reverts time to when he was in his snap position.</string>
+    <string name="mus129_option1">Fly</string>
+    <string name="mus129_option2">Punch</string>
+    <string name="mus129_option3">Go invisible</string>
+
+    <string name="mus130_main_text">You go invisible. He does not see you. You swing and miss. He reverts time back to when he was in his snap position</string>
+    <string name="mus130_option1">Fly</string>
+    <string name="mus130_option2">Punch</string>
+    <string name="mus130_option3">Go invisible</string>
+
+    <string name="mus131_main_text">You start to fly again. But he knows you can do this and delivers a power punch to your stomach. You fall on the ground. Steve begins to snap his fingers again.</string>
+    <string name="mus131_option1">Get up and punch</string>
+    <string name="mus131_option2">Run away</string>
+    <string name="mus131_option3"></string>
+
+    <string name="mus132_main_text">You throw a punch and it barely misses. Should have taken boxing classes...</string>
+    <string name="mus132_option1">Kick him</string>
+    <string name="mus132_option2">Use your hidden power!</string>
+    <string name="mus132_option3"></string>
+
+    <string name="mus133_main_text">You find out that you can turn invisible. But Steve bends reality so that he can see you. He punches you in the gut.</string>
+    <string name="mus133_option1">Get up and punch</string>
+    <string name="mus133_option2">Run away</string>
+    <string name="mus133_option3"></string>
+
+    <string name="mus134_main_text">You go invisible again. But of course Steve knows this and starts blindly swinging until he hits you. You fall on the floor. Steve raises his hand to the snap position.</string>
+    <string name="mus134_option1">Get up and punch</string>
+    <string name="mus134_option2">Run away</string>
+    <string name="mus134_option3"></string>
+
+    <string name="mus135_main_text">You attempt a kick but it fails, miserably. You tear your achilles tendon. You no longer can walk and therefore Steve snaps his fingers. Everything goes white...</string>
+    <string name="mus135_option1">You got the stupid ending</string>
+    <string name="mus135_option2">You got the stupid ending</string>
+    <string name="mus135_option3">You got the stupid ending</string>
+
+    <string name="mus136_main_text">You reach inside your mind... You search for the hidden power within yourself... You find it. You aim it at steve and activate it. Steve dies instantly. You have saved the world. Using... A gun... What do you do now?</string>
+    <string name="mus136_option1">You got the cliffhanger ending. Wait til the second game to fulfill this.</string>
+    <string name="mus136_option2"></string>
+    <string name="mus136_option3"></string>
+
 
 </resources>
