@@ -1,16 +1,10 @@
 <resources>
-    <string name="app_name">Life of Braeden</string>
+    <string name="app_name">Story Time</string>
     <string name="storyText">Story Text</string>
     <string name="action">What do you do?</string>
     <string name="optionOne">1st Option</string>
     <string name="optionTwo">2nd Option</string>
     <string name="optionThree">3rd Option</string>
-
-
-
-    <string name="main_text">It\'s the first day of high school. You need to pick your classes. Which do you choose?</string>
-    <string name="option1">Computer Science 101</string>
-    <string name="option2">Band</string>
-    <string name="option3">Weight Training</string>
+    <string name="mainText">Which story would you like?</string>
 
 </resources>

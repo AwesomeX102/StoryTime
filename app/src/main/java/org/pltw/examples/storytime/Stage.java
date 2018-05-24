@@ -1,5 +1,7 @@
 package org.pltw.examples.storytime;
 
+import org.pltw.examples.storytime.stories.Story1;
+
 import java.util.ArrayList;
 
 public class Stage {
@@ -14,10 +16,10 @@ public class Stage {
     private int stage2;
     private int stage3;
     public static ArrayList<Stage> allStages = new ArrayList<>();
-    private static Story story = Story.getStory();
-    private static ArrayList<Stage> intelligent = story.getIntelligent();
-    private static ArrayList<Stage> athletic = story.getAthletic();
-    private static ArrayList<Stage> musical = story.getMusical();
+    private static Story1 story1 = Story1.getStory();
+    private static ArrayList<Stage> intelligent = story1.getIntelligent();
+    private static ArrayList<Stage> athletic = story1.getAthletic();
+    private static ArrayList<Stage> musical = story1.getMusical();
 
     public Stage(int storyLine, int mainText, int option1, int option2, int option3, int id, int stage1, int stage2, int stage3) {
          this.storyLine = storyLine;

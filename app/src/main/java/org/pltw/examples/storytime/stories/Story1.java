@@ -1,11 +1,14 @@
-package org.pltw.examples.storytime;
+package org.pltw.examples.storytime.stories;
 
 import android.util.Log;
 
+import org.pltw.examples.storytime.R;
+import org.pltw.examples.storytime.Stage;
+
 import java.util.ArrayList;
 
-public class Story {
-    private static Story story;
+public class Story1 extends Story {
+    private static Story1 story1;
 
 
     private static int INT = 0;
@@ -16,12 +19,14 @@ public class Story {
     private static ArrayList<Stage> athletic;
     private static ArrayList<Stage> musical;
     private android.content.Context context;
+    private String name = "Life of Braeden";
 
-    private Story() {
+    private Story1() {
+        super();
         intelligent = new ArrayList<>();
         athletic = new ArrayList<>();
         musical = new ArrayList<>();
-        initial = new Stage(-1, R.string.main_text,  R.string.option1,  R.string.option2,  R.string.option3, 0, 1, 2, 3);//MAKE THIS THE INTRO FOR ALL PATHS
+        initial = new Stage(-1, R.string.story1_main_text,  R.string.story1_option1,  R.string.story1_option2,  R.string.story1_option3, 0, 1, 2, 3);//MAKE THIS THE INTRO FOR ALL PATHS
 
         //vvvvvvvvvvvvvvvvvv PUT STAGES HERE vvvvvvvvvvvvvvvvvv
         Stage ath0 = new Stage(ATH, R.string.ath0_main_text, R.string.ath0_option1, R.string.ath0_option2, R.string.ath0_option3, 0, 1, 1, 1);
@@ -289,11 +294,11 @@ public class Story {
         }
     }
 
-    public static Story getStory() {
-        if(story == null) {
-            story = new Story();
+    public static Story1 getStory() {
+        if(story1 == null) {
+            story1 = new Story1();
         }
-        return story;
+        return story1;
     }
 
 
@@ -330,5 +335,15 @@ public class Story {
             stage = initial;
         }
         return stage;
+    }
+
+    @Override
+    public String toString() {
+        return name;
+    }
+
+    @Override
+    public String getName() {
+        return name;
     }
 }
