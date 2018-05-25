@@ -9,12 +9,16 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import org.pltw.examples.storytime.stories.Story;
 import org.pltw.examples.storytime.stories.Story1;
 
 import java.util.ArrayList;
 
 public class StoryRunner extends AppCompatActivity{
+    private AdView mAdView;
     //Private variables for Loren
     private TypeWriter mainTextStory;
     private TextView textOne;
@@ -42,6 +46,8 @@ public class StoryRunner extends AppCompatActivity{
 
 
     public void setStoryLine(final Stage stage){
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
         textOne.setText(getResources().getString(stage.getOption1()));
         textTwo.setText(getResources().getString(stage.getOption2()));
         textThree.setText(getResources().getString(stage.getOption3()));
@@ -174,6 +180,9 @@ public class StoryRunner extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.runner_story);
         SharedPreferences sharedPref = this.getSharedPreferences("Settings", Context.MODE_PRIVATE);
+        mAdView = findViewById(R.id.adView2);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
         Intent intent = getIntent();
         mStory = (Story) intent.getSerializableExtra("story");
         //Assign Variables Loren

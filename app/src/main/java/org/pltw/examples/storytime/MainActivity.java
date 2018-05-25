@@ -12,12 +12,18 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 import org.pltw.examples.storytime.stories.Story;
 import org.pltw.examples.storytime.stories.Story1;
 
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+    private AdView mAdView;
+
     private FloatingActionButton settingsButton;
     private TextView mainText;
     private ListView storyList;
@@ -30,6 +36,11 @@ public class MainActivity extends AppCompatActivity {
         mainText = findViewById(R.id.mainText);
         Stories = new ArrayList<>();
 
+        MobileAds.initialize(this, getString(R.string.ads_app_id));
+
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
         //ADD STORY CONSTRUCTORS HERE   vvvv
         Stories.add(Story1.getStory());
 

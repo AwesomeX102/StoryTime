@@ -16,4 +16,6 @@
     <!-- Shared Preferences Keys-->
     <string name="typing_delay">typing_delay</string>
 
+    <!-- Ads -->
+    <string name="ads_app_id">ca-app-pub-3940256099942544~3347511713</string>
 </resources>
