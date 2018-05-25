@@ -1,6 +1,7 @@
 package org.pltw.examples.storytime;
 
 import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -17,6 +18,7 @@ import org.pltw.examples.storytime.stories.Story1;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+    private FloatingActionButton settingsButton;
     private TextView mainText;
     private ListView storyList;
     private ArrayList<Story> Stories;
@@ -27,10 +29,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mainText = findViewById(R.id.mainText);
         Stories = new ArrayList<>();
+
         //ADD STORY CONSTRUCTORS HERE   vvvv
         Stories.add(Story1.getStory());
 
 
+        //ADD STORY CONSTRUCTORS HERE   ^^^^
 
         storyList = findViewById(R.id.storyList);
         ArrayAdapter<Story> arrayAdapter = new ArrayAdapter<Story>(this, R.layout.list_view, Stories);
@@ -41,6 +45,15 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(view.getContext(), StoryRunner.class);
                 intent.putExtra("story", Stories.get(pos));
                 startActivity(intent);            }
+        });
+
+        settingsButton = findViewById(R.id.settingsButton);
+        settingsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), Settings.class);
+                startActivity(intent);
+            }
         });
     }
 }

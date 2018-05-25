@@ -46,14 +46,17 @@ public class StoryRunner extends AppCompatActivity{
         textTwo.setText(getResources().getString(stage.getOption2()));
         textThree.setText(getResources().getString(stage.getOption3()));
         mainTextStory.setText(getResources().getString(stage.getMainText()));
-        mainTextStory.setCharacterDelay(50);
-
-        mainTextStory.animateText(mainTextStory.getText());
+        SharedPreferences sharedPref = this.getSharedPreferences("Settings", Context.MODE_PRIVATE);
+        int charDelay = sharedPref.getInt(getString(R.string.typing_delay), 50);
+        Log.i("setStoryLine", "charDelay: " + charDelay);
+        if(charDelay != 0) {
+            mainTextStory.setCharacterDelay(charDelay);
+            mainTextStory.animateText(mainTextStory.getText());
+        }
 
         final int storyLine = stage.getStoryLine();
         final int Id = stage.getId();
 
-        SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPref.edit();
 
         editor.putInt(mStory.getName() + "_storyline", storyLine);
@@ -163,7 +166,7 @@ public class StoryRunner extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.runner_story);
-        SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
+        SharedPreferences sharedPref = this.getSharedPreferences("Settings", Context.MODE_PRIVATE);
         Intent intent = getIntent();
         mStory = (Story) intent.getSerializableExtra("story");
         //Assign Variables Loren

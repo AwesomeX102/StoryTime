@@ -1,10 +1,19 @@
 <resources>
     <string name="app_name">Story Time</string>
     <string name="storyText">Story Text</string>
+
     <string name="action">What do you do?</string>
     <string name="optionOne">1st Option</string>
     <string name="optionTwo">2nd Option</string>
     <string name="optionThree">3rd Option</string>
     <string name="mainText">Which story would you like?</string>
+
+    <!-- Settings -->
+    <string name="settingsHeader">Settings</string>
+    <string name="backButton">Back to Main Menu</string>
+    <string name="settings1">Typing Delay: </string>
+
+    <!-- Shared Preferences Keys-->
+    <string name="typing_delay">typing_delay</string>
 
 </resources>
