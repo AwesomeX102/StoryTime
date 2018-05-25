@@ -9,13 +9,18 @@ public class TypeWriter extends android.support.v7.widget.AppCompatTextView {
     private int mIndex;
     private long mDelay = 150; // in ms
     private Handler mHandler = new Handler();
+    private boolean finish;
 
     private Runnable characterAdder = new Runnable() {
         @Override
         public void run() {
             setText(mText.subSequence(0, mIndex++));
-            if (mIndex <= mText.length()) {
+            if (mIndex <= mText.length() && !finish) {
                 mHandler.postDelayed(characterAdder, mDelay);
+            }
+            if(finish) {
+                setText(mText);
+                finish = false;
             }
         }
     };
@@ -39,5 +44,9 @@ public class TypeWriter extends android.support.v7.widget.AppCompatTextView {
     }
     public void setCharacterDelay(long m) {
         mDelay = m;
+    }
+
+    public void finish() {
+        finish = true;
     }
 }

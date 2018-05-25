@@ -45,7 +45,8 @@ public class StoryRunner extends AppCompatActivity{
         textOne.setText(getResources().getString(stage.getOption1()));
         textTwo.setText(getResources().getString(stage.getOption2()));
         textThree.setText(getResources().getString(stage.getOption3()));
-        mainTextStory.setText(getResources().getString(stage.getMainText()));
+        final String mainText = getResources().getString(stage.getMainText());
+        mainTextStory.setText(mainText);
         SharedPreferences sharedPref = this.getSharedPreferences("Settings", Context.MODE_PRIVATE);
         int charDelay = sharedPref.getInt(getString(R.string.typing_delay), 50);
         Log.i("setStoryLine", "charDelay: " + charDelay);
@@ -53,6 +54,12 @@ public class StoryRunner extends AppCompatActivity{
             mainTextStory.setCharacterDelay(charDelay);
             mainTextStory.animateText(mainTextStory.getText());
         }
+        mainTextStory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mainTextStory.finish();
+            }
+        });
 
         final int storyLine = stage.getStoryLine();
         final int Id = stage.getId();
