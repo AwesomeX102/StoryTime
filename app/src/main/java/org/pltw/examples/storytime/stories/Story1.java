@@ -93,7 +93,7 @@ public class Story1 extends Story {
         Stage int54 = new Stage(INT, R.string.int54_main_text, R.string.int54_option1, R.string.int54_option2, R.string.int54_option3, 54, 68, 69, 38);
         Stage int55 = new Stage(INT, R.string.int55_main_text, R.string.int55_option1, R.string.int55_option2, R.string.int55_option3, 55, 70, 71, 70);
         Stage int56 = new Stage(INT, R.string.int56_main_text, R.string.int56_option1, R.string.int56_option2, R.string.int56_option3, 56, 34, 38, 38);
-        Stage int57 = new Stage(INT, R.string.int57_main_text, R.string.int57_option1, R.string.int57_option2, R.string.int57_option3, 57, 161, 172, 158);
+        Stage int57 = new Stage(INT, R.string.int57_main_text, R.string.int57_option1, R.string.int57_option2, R.string.int57_option3, 57, 61, 72, 58);//The values were set to 161, 172, and 158
         Stage int58 = new Stage(INT, R.string.int58_main_text, R.string.int58_option1, R.string.int58_option2, R.string.int58_option3, 58, 73, 75, -1);
         Stage int59 = new Stage(INT, R.string.int59_main_text, R.string.int59_option1, R.string.int59_option2, R.string.int59_option3, 59, 61, 72, 58);
         Stage int60 = new Stage(INT, R.string.int60_main_text, R.string.int60_option1, R.string.int60_option2, R.string.int60_option3, 60, 61, 72, 58);

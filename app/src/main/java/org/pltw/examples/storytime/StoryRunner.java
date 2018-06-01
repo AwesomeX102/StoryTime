@@ -30,20 +30,13 @@ public class StoryRunner extends AppCompatActivity{
     private ArrayList<Stage> athletic;
     private ArrayList<Stage> musical;
 
-
-
     private void typeWriter(String string, TextView textBox){
         for(int i = 0; i < string.length(); i++){
             String x = "";
             x = string.substring(i);
             textBox.setText(x);
-
         }
-
-
     }
-
-
 
     public void setStoryLine(final Stage stage){
         AdRequest adRequest = new AdRequest.Builder().build();
@@ -135,9 +128,6 @@ public class StoryRunner extends AppCompatActivity{
         });
 
     }
-
-
-
 
     public TextView getMainTextStory() {
         return mainTextStory;
